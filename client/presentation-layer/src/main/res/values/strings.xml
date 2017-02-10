@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidCleanArchitectureWithMVP</string>
+    <string name="app_name">Client</string>
     <string name="fruits">Fruits</string>
     <string name="cheeses">Cheeses</string>
     <string name="sweets">Sweets</string>

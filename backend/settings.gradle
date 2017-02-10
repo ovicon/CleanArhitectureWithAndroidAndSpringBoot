@@ -1,2 +1,6 @@
 rootProject.name = 'backend'
+include 'presentation-layer'
+include 'domain-layer'
+include 'data-layer'
+include 'models'
 

@@ -5,6 +5,18 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend.iml" filepath="$PROJECT_DIR$/.idea/modules/backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_main.iml" group="backend" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_test.iml" group="backend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-layer/data-layer.iml" filepath="$PROJECT_DIR$/.idea/modules/data-layer/data-layer.iml" group="data-layer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-layer/data-layer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/data-layer/data-layer_main.iml" group="data-layer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-layer/data-layer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/data-layer/data-layer_test.iml" group="data-layer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain-layer/domain-layer.iml" filepath="$PROJECT_DIR$/.idea/modules/domain-layer/domain-layer.iml" group="domain-layer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain-layer/domain-layer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain-layer/domain-layer_main.iml" group="domain-layer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain-layer/domain-layer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain-layer/domain-layer_test.iml" group="domain-layer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/models/models.iml" filepath="$PROJECT_DIR$/.idea/modules/models/models.iml" group="models" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/models/models_main.iml" filepath="$PROJECT_DIR$/.idea/modules/models/models_main.iml" group="models" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/models/models_test.iml" filepath="$PROJECT_DIR$/.idea/modules/models/models_test.iml" group="models" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation-layer/presentation-layer.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation-layer/presentation-layer.iml" group="presentation-layer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation-layer/presentation-layer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation-layer/presentation-layer_main.iml" group="presentation-layer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation-layer/presentation-layer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation-layer/presentation-layer_test.iml" group="presentation-layer" />
     </modules>
   </component>
 </project>
