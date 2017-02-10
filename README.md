@@ -3,7 +3,7 @@ In progress...
 License
 -------
 
-    Copyright 2016 Ovidiu CONEAC
+    Copyright 2017 Ovidiu CONEAC
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
