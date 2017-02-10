@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/client.iml" filepath="$PROJECT_DIR$/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-layer/data-layer.iml" filepath="$PROJECT_DIR$/data-layer/data-layer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain-layer/domain-layer.iml" filepath="$PROJECT_DIR$/domain-layer/domain-layer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/models/models.iml" filepath="$PROJECT_DIR$/models/models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/presentation-layer/presentation-layer.iml" filepath="$PROJECT_DIR$/presentation-layer/presentation-layer.iml" />
+    </modules>
+  </component>
+</project>
