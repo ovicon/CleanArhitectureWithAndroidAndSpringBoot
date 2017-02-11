@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation-layer.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation-layer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation-layer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation-layer_main.iml" group="presentation-layer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation-layer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation-layer_test.iml" group="presentation-layer" />
+      <module fileurl="file://$PROJECT_DIR$/server-maven.iml" filepath="$PROJECT_DIR$/server-maven.iml" />
+    </modules>
+  </component>
+</project>
