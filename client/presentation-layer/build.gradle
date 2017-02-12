@@ -28,6 +28,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     // Modules
     compile project(':domain-layer')
+    // Retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
     // Butterknife
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'

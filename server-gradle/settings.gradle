@@ -1,0 +1,4 @@
+rootProject.name = 'server'
+include 'presentation-layer'
+rootProject.name = 'server'
+

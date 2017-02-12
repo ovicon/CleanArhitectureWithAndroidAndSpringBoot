@@ -13,7 +13,7 @@ import ro.ovidiuconeac.client.models.Sweet;
 /**
  * Created by ovidiu on 2/6/17.
  */
-
+@Deprecated
 public class MainUseCases {
 
     private FruitsBean fruitBean;
