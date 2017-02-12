@@ -13,7 +13,7 @@ import java.util.Random;
 public class SweetsController {
 
     @RequestMapping("/sweet")
-    public String get() {
-        return "sweet " + new Random().nextInt(10000);
+    public Sweet get() {
+        return new Sweet("sweet " + new Random().nextInt(10000));
     }
 }

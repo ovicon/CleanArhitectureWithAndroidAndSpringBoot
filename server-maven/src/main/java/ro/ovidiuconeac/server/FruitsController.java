@@ -12,8 +12,8 @@ import java.util.Random;
 public class FruitsController {
 
     @RequestMapping("/fruit")
-    public String index() {
-        return "fruit " + new Random().nextInt(10000);
+    public Fruit index() {
+        return new Fruit("fruit " + new Random().nextInt(10000));
     }
 
 }

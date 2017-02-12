@@ -1,52 +1,24 @@
 package ro.ovidiuconeac.client.presentationlayer.features.featurex.model;
 
-import ro.ovidiuconeac.client.businesslayer.beans.CheeseBean;
-import ro.ovidiuconeac.client.businesslayer.beans.CheeseBeanImpl;
-import ro.ovidiuconeac.client.businesslayer.beans.FruitsBean;
-import ro.ovidiuconeac.client.businesslayer.beans.FruitsBeanImpl;
-import ro.ovidiuconeac.client.businesslayer.beans.SweetsBean;
-import ro.ovidiuconeac.client.businesslayer.beans.SweetsBeanImpl;
+import retrofit2.Call;
+import retrofit2.http.GET;
 import ro.ovidiuconeac.client.models.Cheese;
 import ro.ovidiuconeac.client.models.Fruit;
 import ro.ovidiuconeac.client.models.Sweet;
+import ro.ovidiuconeac.client.presentationlayer.features.Screen;
 
 /**
- * Created by ovidiu on 2/6/17.
+ * Created by Ovidiu CONEAC on 2/12/2017.
  */
-@Deprecated
-public class MainUseCases {
 
-    private FruitsBean fruitBean;
-    private CheeseBean cheeseBean;
-    private SweetsBean sweetsBean;
+public interface MainUseCases {
 
-    public MainUseCases() {
-        this.fruitBean = new FruitsBeanImpl();
-        this.cheeseBean = new CheeseBeanImpl();
-        this.sweetsBean = new SweetsBeanImpl();
-    }
+    @GET("fruit")
+    Call<Fruit> fetchFruit();
 
-    public Fruit getFruit1() {
-        return fruitBean.getRandomFruit();
-    }
+    @GET("cheese")
+    Call<Cheese> fetchCheese();
 
-    public Fruit getFruit2() {
-        return fruitBean.getRandomFruit();
-    }
-
-    public Cheese getCheese1() {
-        return cheeseBean.getRandomCheese();
-    }
-
-    public Cheese getCheese2() {
-        return cheeseBean.getRandomCheese();
-    }
-
-    public Sweet getSweet1() {
-        return sweetsBean.getRandomSweet();
-    }
-
-    public Sweet getSweet2() {
-        return sweetsBean.getRandomSweet();
-    }
+    @GET("sweet")
+    Call<Sweet> fetchSweet();
 }
