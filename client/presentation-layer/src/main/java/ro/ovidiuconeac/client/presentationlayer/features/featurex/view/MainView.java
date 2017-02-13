@@ -25,4 +25,5 @@ public interface MainView extends Screen {
     void requestSweet2();
     void postSweet2(String sweet);
     void enableUiSweet2(boolean enable);
+    void showRequestError();
 }

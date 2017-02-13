@@ -1,23 +1,17 @@
 package ro.ovidiuconeac.client.presentationlayer.features.featurex.model;
 
-import android.util.Log;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import java.io.IOException;
 
 import retrofit2.Call;
-import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import retrofit2.http.GET;
-import ro.ovidiuconeac.client.businesslayer.beans.CheeseBean;
-import ro.ovidiuconeac.client.businesslayer.beans.CheeseBeanImpl;
-import ro.ovidiuconeac.client.businesslayer.beans.FruitsBean;
-import ro.ovidiuconeac.client.businesslayer.beans.FruitsBeanImpl;
-import ro.ovidiuconeac.client.businesslayer.beans.SweetsBean;
-import ro.ovidiuconeac.client.businesslayer.beans.SweetsBeanImpl;
 import ro.ovidiuconeac.client.models.Cheese;
 import ro.ovidiuconeac.client.models.Fruit;
 import ro.ovidiuconeac.client.models.Sweet;
+import ro.ovidiuconeac.client.presentationlayer.features.featurex.presenter.MainPresenter;
 
 /**
  * Created by ovidiu on 2/6/17.
@@ -26,11 +20,17 @@ public class MainUseCasesImpl {
 
     private Retrofit service;
     private MainUseCases useCases;
+    private Fruit fruit1;
+    private MainPresenter presenter;
 
-    public MainUseCasesImpl() {
+    public MainUseCasesImpl(MainPresenter presenter) {
+        this.presenter = presenter;
+        Gson gson = new GsonBuilder()
+                .setLenient()
+                .create();
         service = new Retrofit.Builder()
-                .baseUrl("http://localhost:8080")
-                .addConverterFactory(GsonConverterFactory.create())
+                .baseUrl("http://192.168.0.122:8080")
+                .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         useCases = service.create(MainUseCases.class);
     }
@@ -39,32 +39,71 @@ public class MainUseCasesImpl {
         Fruit fruit = new Fruit("");
         Call<Fruit> call = useCases.fetchFruit();
         try {
-            Response<Fruit> response = call.execute();
-            fruit = response.body();
+            fruit = call.execute().body();
         } catch (IOException e) {
-            e.printStackTrace();
+            // TODO give more information
+            presenter.showRequestError();
         }
-        Log.d("OVI", "adsada sd ass " + fruit.getName());
         return fruit;
     }
 
     public Fruit getFruit2() {
-        return null;
+        Fruit fruit = new Fruit("");
+        Call<Fruit> call = useCases.fetchFruit();
+        try {
+            fruit = call.execute().body();
+        } catch (IOException e) {
+            // TODO give more information
+            presenter.showRequestError();
+        }
+        return fruit;
     }
 
     public Cheese getCheese1() {
-        return null;
+        Cheese cheese = new Cheese("");
+        Call<Cheese> call = useCases.fetchCheese();
+        try {
+            cheese = call.execute().body();
+        } catch (IOException e) {
+            // TODO give more information
+            presenter.showRequestError();
+        }
+        return cheese;
     }
 
     public Cheese getCheese2() {
-        return null;
+        Cheese cheese = new Cheese("");
+        Call<Cheese> call = useCases.fetchCheese();
+        try {
+            cheese = call.execute().body();
+        } catch (IOException e) {
+            // TODO give more information
+            presenter.showRequestError();
+        }
+        return cheese;
     }
 
     public Sweet getSweet1() {
-        return null;
+        Sweet sweet = new Sweet("");
+        Call<Sweet> call = useCases.fetchSweet();
+        try {
+            sweet = call.execute().body();
+        } catch (IOException e) {
+            // TODO give more information
+            presenter.showRequestError();
+        }
+        return sweet;
     }
 
     public Sweet getSweet2() {
-        return null;
+        Sweet sweet = new Sweet("");
+        Call<Sweet> call = useCases.fetchSweet();
+        try {
+            sweet = call.execute().body();
+        } catch (IOException e) {
+            // TODO give more information
+            presenter.showRequestError();
+        }
+        return sweet;
     }
 }

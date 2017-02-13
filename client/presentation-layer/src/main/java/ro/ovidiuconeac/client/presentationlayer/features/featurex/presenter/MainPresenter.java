@@ -13,4 +13,5 @@ public interface MainPresenter extends Presenter {
     void requestCheese2();
     void requestSweet1();
     void requestSweet2();
+    void showRequestError();
 }

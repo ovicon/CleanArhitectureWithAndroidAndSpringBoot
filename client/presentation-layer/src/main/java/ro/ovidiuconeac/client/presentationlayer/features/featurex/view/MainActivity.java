@@ -7,6 +7,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import java.util.UUID;
 
@@ -310,5 +311,10 @@ public class MainActivity extends AppCompatActivity implements MainView {
     public void restorePresenter(UUID uuid) {
         presenter = (MainPresenter) Cache.getInstance().restorePresenterFor(uuid);
         presenter.setScreen(this);
+    }
+
+    @Override
+    public void showRequestError() {
+        Toast.makeText(this, "TODO", Toast.LENGTH_SHORT).show();
     }
 }

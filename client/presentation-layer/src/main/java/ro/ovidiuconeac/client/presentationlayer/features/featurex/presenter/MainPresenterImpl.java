@@ -1,6 +1,8 @@
 package ro.ovidiuconeac.client.presentationlayer.features.featurex.presenter;
 
 import android.os.AsyncTask;
+import android.os.Handler;
+import android.os.Looper;
 
 import java.util.UUID;
 
@@ -9,8 +11,6 @@ import ro.ovidiuconeac.client.models.Fruit;
 import ro.ovidiuconeac.client.models.Sweet;
 import ro.ovidiuconeac.client.presentationlayer.common.Util;
 import ro.ovidiuconeac.client.presentationlayer.features.Screen;
-import ro.ovidiuconeac.client.presentationlayer.features.featurex.model.MainUseCases;
-import ro.ovidiuconeac.client.presentationlayer.features.featurex.model.MainUseCasesDummy;
 import ro.ovidiuconeac.client.presentationlayer.features.featurex.model.MainUseCasesImpl;
 import ro.ovidiuconeac.client.presentationlayer.features.featurex.view.MainView;
 
@@ -27,7 +27,7 @@ public class MainPresenterImpl implements MainPresenter {
     public MainPresenterImpl(MainView view) {
         this.uuid = UUID.randomUUID();
         this.view = view;
-        this.model = new MainUseCasesImpl();
+        this.model = new MainUseCasesImpl(this);
     }
 
     @Override
@@ -136,6 +136,17 @@ public class MainPresenterImpl implements MainPresenter {
                 view.postSweet2(sweet.getName());
             }
         }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+    }
+
+    @Override
+    public void showRequestError() {
+        Handler handler = new Handler(Looper.getMainLooper());
+        handler.post(new Runnable() {
+            @Override
+            public void run() {
+                view.showRequestError();
+            }
+        });
     }
 
     @Override
