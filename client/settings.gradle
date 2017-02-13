@@ -1,1 +1,1 @@
-include ':presentation-layer', ':domain-layer', ':data-layer', ':models'
+include ':presentation-layer', ':models'

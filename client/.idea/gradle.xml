@@ -9,8 +9,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/data-layer" />
-            <option value="$PROJECT_DIR$/domain-layer" />
             <option value="$PROJECT_DIR$/models" />
             <option value="$PROJECT_DIR$/presentation-layer" />
           </set>

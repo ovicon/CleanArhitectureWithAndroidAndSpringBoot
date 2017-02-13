@@ -12,21 +12,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d409bb-3a7d-4a28-b77b-a14c1fed1913" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCasesDummy.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainRestCalls.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/Cheese.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/CheesesController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/Food.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/Fruit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/FruitsController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/Sweet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/SweetsController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/Cheese.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/CheesesController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/Food.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/Fruit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/FruitsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/Sweet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/SweetsController.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCasesImpl.java" afterPath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCases.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/Application.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation-layer/build.gradle" afterPath="$PROJECT_DIR$/presentation-layer/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation-layer/presentation-layer.iml" afterPath="$PROJECT_DIR$/presentation-layer/presentation-layer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCasesImpl.java" afterPath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCasesImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/presenter/MainPresenter.java" afterPath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/presenter/MainPresenter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/presenter/MainPresenterImpl.java" afterPath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/presenter/MainPresenterImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/view/MainActivity.java" afterPath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/view/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/view/MainView.java" afterPath="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/view/MainView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../server-maven/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/Application.java" afterPath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/Application.java" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,6 +80,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="CheeseBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain-layer/src/main/java/ro/ovidiuconeac/client/businesslayer/beans/CheeseBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="0" selection-start-line="8" selection-start-column="17" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CheeseBeanImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/domain-layer/src/main/java/ro/ovidiuconeac/client/businesslayer/beans/CheeseBeanImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,18 +103,18 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/presentation-layer/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+            <state relative-caret-position="583">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainUseCasesImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCasesImpl.java">
+      <file leaf-file-name="MainUseCases.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+            <state relative-caret-position="154">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -124,53 +153,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fruit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/client/models/Fruit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Call.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/3564ebef90ac75e61ed65ab9af0f422ce92d4afa/retrofit-2.1.0-sources.jar!/retrofit2/Call.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#2650#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPresenterImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainPresenterImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/presenter/MainPresenterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
+            <state relative-caret-position="517">
               <caret line="146" column="40" selection-start-line="146" selection-start-column="40" selection-end-line="146" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4358#4493#0" expanded="true" />
-                <element signature="e#4492#4493#0" expanded="true" />
+                <element signature="e#4346#4481#0" expanded="true" />
+                <element signature="e#4480#4481#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainUseCases.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCases.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/presentation-layer/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainRestCalls.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainRestCalls.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,20 +218,12 @@
                 <option name="path" value="$PROJECT_DIR$/models" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":data-layer" />
-                <option name="path" value="$PROJECT_DIR$/data-layer" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
                 <option name="name" value=":presentation-layer" />
                 <option name="path" value="$PROJECT_DIR$/presentation-layer" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="client" />
                 <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":domain-layer" />
-                <option name="path" value="$PROJECT_DIR$/domain-layer" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -2030,7 +2033,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client" value="8921128754335" />
+        <entry key="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client" value="5947720446385" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2553,13 +2556,14 @@
       <list>
         <option value="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCases2.java" />
         <option value="$PROJECT_DIR$/presentation-layer/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCases.java" />
-        <option value="$PROJECT_DIR$/presentation-layer/build.gradle" />
         <option value="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCasesImpl.java" />
         <option value="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/view/MainView.java" />
         <option value="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/presenter/MainPresenter.java" />
         <option value="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/view/MainActivity.java" />
         <option value="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/presenter/MainPresenterImpl.java" />
+        <option value="$PROJECT_DIR$/presentation-layer/build.gradle" />
+        <option value="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainRestUseCases.java" />
+        <option value="$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCases.java" />
       </list>
     </option>
   </component>
@@ -2615,250 +2619,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentation-layer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentation-layer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentation-layer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentation-layer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentationlayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentation-layer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentationlayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="featurex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentation-layer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentationlayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="featurex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentation-layer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentationlayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="featurex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentation-layer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentationlayer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3189,7 +2949,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2066" height="1120" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3207,12 +2967,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38419914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38419914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2557789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2557789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3313,7 +3073,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCasesImpl.java">
+    <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCases.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3338,8 +3098,8 @@
           <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4358#4493#0" expanded="true" />
-            <element signature="e#4492#4493#0" expanded="true" />
+            <element signature="e#4346#4481#0" expanded="true" />
+            <element signature="e#4480#4481#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3352,21 +3112,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCases.java">
+    <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainRestCalls.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain-layer/src/main/java/ro/ovidiuconeac/client/businesslayer/beans/CheeseBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3392,14 +3144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation-layer/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/client/models/Fruit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -3409,16 +3153,6 @@
             <element signature="e#178#179#0" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
             <element signature="e#236#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3455,14 +3189,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCasesImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/view/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -3476,13 +3202,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/presenter/MainPresenterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="517">
           <caret line="146" column="40" selection-start-line="146" selection-start-column="40" selection-end-line="146" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4358#4493#0" expanded="true" />
-            <element signature="e#4492#4493#0" expanded="true" />
+            <element signature="e#4346#4481#0" expanded="true" />
+            <element signature="e#4480#4481#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation-layer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain-layer/src/main/java/ro/ovidiuconeac/client/businesslayer/beans/CheeseBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="8" selection-start-column="17" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation-layer/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainRestCalls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation-layer/src/main/java/ro/ovidiuconeac/client/presentationlayer/features/featurex/model/MainUseCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

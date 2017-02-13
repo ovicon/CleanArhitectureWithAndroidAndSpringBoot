@@ -11,7 +11,7 @@ import ro.ovidiuconeac.client.models.Fruit;
 import ro.ovidiuconeac.client.models.Sweet;
 import ro.ovidiuconeac.client.presentationlayer.common.Util;
 import ro.ovidiuconeac.client.presentationlayer.features.Screen;
-import ro.ovidiuconeac.client.presentationlayer.features.featurex.model.MainUseCasesImpl;
+import ro.ovidiuconeac.client.presentationlayer.features.featurex.model.MainUseCases;
 import ro.ovidiuconeac.client.presentationlayer.features.featurex.view.MainView;
 
 /**
@@ -22,12 +22,12 @@ public class MainPresenterImpl implements MainPresenter {
 
     private UUID uuid;
     private MainView view;
-    private MainUseCasesImpl model;
+    private MainUseCases model;
 
     public MainPresenterImpl(MainView view) {
         this.uuid = UUID.randomUUID();
         this.view = view;
-        this.model = new MainUseCasesImpl(this);
+        this.model = new MainUseCases(this);
     }
 
     @Override

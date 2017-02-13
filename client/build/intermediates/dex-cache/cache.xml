@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="89cfd98ff8757128989bed5aa43499662dc2dbae">
+        sha1="b0c98b0f972ef32a0bb795f7db80272c051e50e8">
         <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\presentation-layer\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fb1c57b783a3811d3d900235dfa4012680786442\classes.dex" />
     </item>
     <item
@@ -115,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="915085dadf766a5ac1fafc83234e61f402402ba2">
+        sha1="ef2a9e75fc0a57a6fc2003b003a8802dbb1114a2">
         <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\presentation-layer\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_24c4860edd7dbf1d0bb17046740eb8f596c258ae\classes.dex" />
     </item>
     <item
