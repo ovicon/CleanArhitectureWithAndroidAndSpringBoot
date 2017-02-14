@@ -12,34 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d409bb-3a7d-4a28-b77b-a14c1fed1913" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/src/main/res/layout/server_base_url.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/data-layer.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/main/java/ro/ovidiuconeac/client/datalayer/dao/CheesesDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/main/java/ro/ovidiuconeac/client/datalayer/dao/CheesesDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/main/java/ro/ovidiuconeac/client/datalayer/dao/FruitsDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/main/java/ro/ovidiuconeac/client/datalayer/dao/FruitsDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/main/java/ro/ovidiuconeac/client/datalayer/dao/SweetsDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/main/java/ro/ovidiuconeac/client/datalayer/dao/SweetsDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/main/java/ro/ovidiuconeac/client/datalayer/database/Database.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/main/java/ro/ovidiuconeac/client/datalayer/database/DatabaseImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/test/java/ro/ovidiuconeac/client/datalayer/dao/TestCheesesDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/test/java/ro/ovidiuconeac/client/datalayer/dao/TestFruitsDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/test/java/ro/ovidiuconeac/client/datalayer/dao/TestSweetsDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-layer/src/test/java/ro/ovidiuconeac/client/datalayer/database/DatabaseImplTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/domain-layer.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/src/main/java/ro/ovidiuconeac/client/businesslayer/beans/CheeseBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/src/main/java/ro/ovidiuconeac/client/businesslayer/beans/CheeseBeanImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/src/main/java/ro/ovidiuconeac/client/businesslayer/beans/FruitsBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/src/main/java/ro/ovidiuconeac/client/businesslayer/beans/FruitsBeanImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/src/main/java/ro/ovidiuconeac/client/businesslayer/beans/SweetsBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/src/main/java/ro/ovidiuconeac/client/businesslayer/beans/SweetsBeanImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/src/test/java/ro/ovidiuconeac/client/businesslayer/beans/TestCheeseBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/src/test/java/ro/ovidiuconeac/client/businesslayer/beans/TestFruitsBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-layer/src/test/java/ro/ovidiuconeac/client/businesslayer/beans/TestSweetsBean.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/features/featurex/models/Cheese.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/features/featurex/models/Food.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/features/featurex/models/Fruit.java" afterPath="" />
@@ -48,15 +20,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/models/Food.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/models/Fruit.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/models/Sweet.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/client/models/Cheese.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Cheese.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/client/models/Food.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Food.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/client/models/Fruit.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Fruit.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/client/models/Sweet.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Sweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBean.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/FruitsBean.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/FruitsBean.class" />
@@ -74,17 +37,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/CheesesController.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/CheesesController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/FruitsController.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/FruitsController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/SweetsController.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/SweetsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/application.iml" afterPath="$PROJECT_DIR$/application/application.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainRestCalls.java" afterPath="$PROJECT_DIR$/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainRestCalls.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainUseCases.java" afterPath="$PROJECT_DIR$/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainUseCases.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/presenter/MainPresenterImpl.java" afterPath="$PROJECT_DIR$/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/presenter/MainPresenterImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/view/MainActivity.java" afterPath="$PROJECT_DIR$/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/view/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/main/res/layout-land/activity_main.xml" afterPath="$PROJECT_DIR$/application/src/main/res/layout-land/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/application/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/application/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/application/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Sweet.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Sweet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-gradle/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../server-gradle/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../server-maven/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../server-maven/.idea/encodings.xml" />
@@ -224,7 +177,7 @@
         <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Sweet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -2610,40 +2563,6 @@
               <option name="myItemId" value="featurex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sweet.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="featurex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -3732,7 +3651,7 @@
     <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Sweet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding />
         </state>
       </provider>
