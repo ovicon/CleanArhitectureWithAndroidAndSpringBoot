@@ -4,7 +4,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
-import ro.ovidiuconeac.models.features.featurex.Cheese;
 import ro.ovidiuconeac.models.features.featurex.Fruit;
 
 import static org.junit.Assert.assertEquals;

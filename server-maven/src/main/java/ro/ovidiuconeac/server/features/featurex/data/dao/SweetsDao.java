@@ -7,5 +7,5 @@ import ro.ovidiuconeac.models.features.featurex.Sweet;
  */
 
 public interface SweetsDao {
-    Sweet getSweetById(int id);
+    Sweet getRandomSweet();
 }

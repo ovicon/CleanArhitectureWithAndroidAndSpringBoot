@@ -5,8 +5,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 import ro.ovidiuconeac.models.features.featurex.Cheese;
-import static org.junit.Assert.assertNotNull;
+
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 /**
  * Created by Ovidiu CONEAC on 2/14/2017.

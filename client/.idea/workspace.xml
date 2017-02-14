@@ -12,28 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d409bb-3a7d-4a28-b77b-a14c1fed1913" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/src/test/java/ro/ovidiuconeac/client/features/featurex/presentation/model/TestMainUseCases.java" afterPath="$PROJECT_DIR$/application/src/test/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainUseCasesTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/src/test/java/ro/ovidiuconeac/client/features/featurex/presentation/model/TestMainUseCasesSuite.java" afterPath="$PROJECT_DIR$/application/src/test/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainUseCasesTestSuite.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/src/test/java/ro/ovidiuconeac/client/features/featurex/presentation/model/TestMainUseCasesWithRequestException.java" afterPath="$PROJECT_DIR$/application/src/test/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainUseCasesWithRequestExceptionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/Application.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImpl.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImpl.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/application.iml" afterPath="$PROJECT_DIR$/application/application.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../server-maven/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/models/models.iml" afterPath="$PROJECT_DIR$/../server-maven/models/models.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/pom.xml" afterPath="$PROJECT_DIR$/../server-maven/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/server-maven.iml" afterPath="$PROJECT_DIR$/../server-maven/server-maven.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/Application.java" afterPath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.java" afterPath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImpl.java" afterPath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImpl.java" afterPath="$PROJECT_DIR$/../server-maven/src/main/java/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImpl.java" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -3115,7 +3095,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2066" height="1120" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3132,10 +3112,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29081082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29081082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32160804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

@@ -7,5 +7,5 @@ import ro.ovidiuconeac.models.features.featurex.Cheese;
  */
 
 public interface CheesesDao {
-    Cheese getCheeseById(int id);
+    Cheese getRandomCheese();
 }

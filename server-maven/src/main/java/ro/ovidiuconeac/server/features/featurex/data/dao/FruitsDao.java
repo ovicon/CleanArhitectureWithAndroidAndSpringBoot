@@ -7,5 +7,5 @@ import ro.ovidiuconeac.models.features.featurex.Fruit;
  */
 
 public interface FruitsDao {
-    Fruit getFruitById(int id);
+    Fruit getRandomFruit();
 }
