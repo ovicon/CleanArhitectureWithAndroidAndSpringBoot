@@ -7,11 +7,8 @@ package ro.ovidiuconeac.server.features.featurex.presentation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import ro.ovidiuconeac.models.features.featurex.Cheese;
 import ro.ovidiuconeac.server.features.featurex.business.CheeseBean;
-import ro.ovidiuconeac.server.features.featurex.business.CheeseBeanImpl;
-import ro.ovidiuconeac.server.features.featurex.models.Cheese;
-
-import java.util.Random;
 
 @RestController
 public class CheesesController {
@@ -19,7 +16,7 @@ public class CheesesController {
     @Autowired
     private CheeseBean cheeseBean;
 
-    @RequestMapping("/cheese")
+    @RequestMapping("/featurex/cheese")
     public Cheese index() {
         return cheeseBean.getRandomCheese();
     }

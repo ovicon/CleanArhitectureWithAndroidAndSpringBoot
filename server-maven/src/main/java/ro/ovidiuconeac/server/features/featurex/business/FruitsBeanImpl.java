@@ -1,8 +1,8 @@
 package ro.ovidiuconeac.server.features.featurex.business;
 
+import ro.ovidiuconeac.models.features.featurex.Fruit;
 import ro.ovidiuconeac.server.features.featurex.data.dao.FruitsDao;
 import ro.ovidiuconeac.server.features.featurex.data.dao.FruitsDaoImpl;
-import ro.ovidiuconeac.server.features.featurex.models.Fruit;
 
 import java.util.Random;
 

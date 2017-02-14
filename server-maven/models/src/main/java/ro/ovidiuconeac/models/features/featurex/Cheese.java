@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.server.features.featurex.models;
+package ro.ovidiuconeac.models.features.featurex;
 
 /**
  * Created by ovidiu on 2/7/17.

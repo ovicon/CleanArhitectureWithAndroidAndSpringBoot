@@ -1,8 +1,8 @@
 package ro.ovidiuconeac.server.features.featurex.business;
 
+import ro.ovidiuconeac.models.features.featurex.Cheese;
 import ro.ovidiuconeac.server.features.featurex.data.dao.CheesesDao;
 import ro.ovidiuconeac.server.features.featurex.data.dao.CheesesDaoImpl;
-import ro.ovidiuconeac.server.features.featurex.models.Cheese;
 
 import java.util.Random;
 

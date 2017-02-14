@@ -7,11 +7,8 @@ package ro.ovidiuconeac.server.features.featurex.presentation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import ro.ovidiuconeac.models.features.featurex.Sweet;
 import ro.ovidiuconeac.server.features.featurex.business.SweetsBean;
-import ro.ovidiuconeac.server.features.featurex.business.SweetsBeanImpl;
-import ro.ovidiuconeac.server.features.featurex.models.Sweet;
-
-import java.util.Random;
 
 @RestController
 public class SweetsController {
@@ -19,7 +16,7 @@ public class SweetsController {
     @Autowired
     private SweetsBean sweetsBean;
 
-    @RequestMapping("/sweet")
+    @RequestMapping("/featurex/sweet")
     public Sweet get() {
         return sweetsBean.getRandomSweet();
     }

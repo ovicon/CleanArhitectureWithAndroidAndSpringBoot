@@ -1,6 +1,6 @@
 package ro.ovidiuconeac.server.features.featurex.business;
 
-import ro.ovidiuconeac.server.features.featurex.models.Sweet;
+import ro.ovidiuconeac.models.features.featurex.Sweet;
 
 /**
  * Created by ovidiu on 2/7/17.

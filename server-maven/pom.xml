@@ -8,6 +8,9 @@
     <artifactId>server</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
+    <modules>
+        <module>models</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -19,6 +22,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ro.ovidiuconeac.server</groupId>
+            <artifactId>models</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
