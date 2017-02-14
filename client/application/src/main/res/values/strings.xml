@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Client</string>
+    <string name="fruits">Fruits</string>
+    <string name="cheeses">Cheeses</string>
+    <string name="sweets">Sweets</string>
+    <string name="get">Get</string>
+    <string name="fruit1_request_error">Unable to satisfy request for \"Fruit 1\".</string>
+    <string name="fruit2_request_error">Unable to satisfy request for \"Fruit 2\".</string>
+    <string name="cheese1_request_error">Unable to satisfy request for \"Cheese 1\".</string>
+    <string name="cheese2_request_error">Unable to satisfy request for \"Cheese 2\".</string>
+    <string name="sweet1_request_error">Unable to satisfy request for \"Sweet 1\".</string>
+    <string name="sweet2_request_error">Unable to satisfy request for \"Sweet 2\".</string>
+</resources>

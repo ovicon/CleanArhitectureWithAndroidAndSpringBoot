@@ -9,8 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/application" />
             <option value="$PROJECT_DIR$/models" />
-            <option value="$PROJECT_DIR$/presentation-layer" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
