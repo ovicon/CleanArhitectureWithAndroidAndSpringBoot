@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "ro.ovidiuconeac.androidcleanarchitecturewithmvp"
+        applicationId "ro.ovidiuconeac.client"
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
@@ -25,6 +25,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.1.1'
+    testCompile "org.mockito:mockito-core:1.10.19"
     testCompile 'junit:junit:4.12'
     // Modules
     compile project(':models')
