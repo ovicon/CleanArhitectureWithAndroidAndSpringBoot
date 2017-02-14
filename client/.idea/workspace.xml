@@ -20,6 +20,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/models/Food.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/models/Fruit.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/models/Sweet.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBean.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/FruitsBean.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/business/FruitsBean.class" />
@@ -37,7 +42,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/CheesesController.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/CheesesController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/FruitsController.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/FruitsController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/SweetsController.class" afterPath="$PROJECT_DIR$/../server-maven/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/SweetsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Sweet.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Sweet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-gradle/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../server-gradle/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../server-maven/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server-maven/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../server-maven/.idea/encodings.xml" />
@@ -3037,7 +3043,7 @@
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
@@ -3177,7 +3183,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29081082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32160804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
