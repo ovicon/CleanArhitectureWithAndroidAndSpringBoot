@@ -2,9 +2,9 @@ package ro.ovidiuconeac.client.features.featurex.presentation.model;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import ro.ovidiuconeac.client.models.Cheese;
-import ro.ovidiuconeac.client.models.Fruit;
-import ro.ovidiuconeac.client.models.Sweet;
+import ro.ovidiuconeac.models.features.featurex.Cheese;
+import ro.ovidiuconeac.models.features.featurex.Fruit;
+import ro.ovidiuconeac.models.features.featurex.Sweet;
 
 /**
  * Created by Ovidiu CONEAC on 2/12/2017.
@@ -16,12 +16,12 @@ import ro.ovidiuconeac.client.models.Sweet;
 
 interface MainRestCalls {
 
-    @GET("fruit")
+    @GET("featurex/fruit")
     Call<Fruit> fetchFruit();
 
-    @GET("cheese")
+    @GET("featurex/cheese")
     Call<Cheese> fetchCheese();
 
-    @GET("sweet")
+    @GET("featurex/sweet")
     Call<Sweet> fetchSweet();
 }

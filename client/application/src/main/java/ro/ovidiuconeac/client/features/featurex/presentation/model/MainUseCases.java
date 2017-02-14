@@ -8,9 +8,9 @@ import java.io.IOException;
 import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import ro.ovidiuconeac.client.models.Cheese;
-import ro.ovidiuconeac.client.models.Fruit;
-import ro.ovidiuconeac.client.models.Sweet;
+import ro.ovidiuconeac.models.features.featurex.Cheese;
+import ro.ovidiuconeac.models.features.featurex.Fruit;
+import ro.ovidiuconeac.models.features.featurex.Sweet;
 import ro.ovidiuconeac.client.features.common.Configuration;
 import ro.ovidiuconeac.client.features.featurex.exceptions.RequestException;
 

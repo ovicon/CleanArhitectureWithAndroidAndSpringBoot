@@ -10,4 +10,6 @@
     <string name="cheese2_request_error">Unable to satisfy request for \"Cheese 2\".</string>
     <string name="sweet1_request_error">Unable to satisfy request for \"Sweet 1\".</string>
     <string name="sweet2_request_error">Unable to satisfy request for \"Sweet 2\".</string>
+    <string name="server">Server</string>
+    <string name="empty" />
 </resources>

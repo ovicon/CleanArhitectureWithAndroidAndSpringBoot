@@ -7,6 +7,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.UUID;
@@ -15,6 +16,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import ro.ovidiuconeac.client.features.cache.Cache;
+import ro.ovidiuconeac.client.features.common.Configuration;
 import ro.ovidiuconeac.client.features.common.Presenter;
 import ro.ovidiuconeac.client.features.featurex.presentation.presenter.MainPresenter;
 import ro.ovidiuconeac.client.features.featurex.presentation.presenter.MainPresenterImpl;
@@ -22,6 +24,9 @@ import ro.ovidiuconeac.presentationlayer.R;
 
 public class MainActivity extends AppCompatActivity implements MainView {
 
+    // Server
+    @BindView(R.id.base_url)
+    TextView serverBaseUrl;
     // Fruit1
     @BindView(R.id.progressBarFruit1)
     ProgressBar progressBarFruit1;
@@ -83,6 +88,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
         getWindow().setSoftInputMode(
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN
         );
+        serverBaseUrl.setText(Configuration.BASE_URL);
     }
 
     @Override

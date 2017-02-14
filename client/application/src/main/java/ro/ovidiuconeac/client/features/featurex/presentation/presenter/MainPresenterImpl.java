@@ -6,9 +6,9 @@ import android.os.Looper;
 
 import java.util.UUID;
 
-import ro.ovidiuconeac.client.models.Cheese;
-import ro.ovidiuconeac.client.models.Fruit;
-import ro.ovidiuconeac.client.models.Sweet;
+import ro.ovidiuconeac.models.features.featurex.Cheese;
+import ro.ovidiuconeac.models.features.featurex.Fruit;
+import ro.ovidiuconeac.models.features.featurex.Sweet;
 import ro.ovidiuconeac.client.features.common.Screen;
 import ro.ovidiuconeac.client.features.common.Util;
 import ro.ovidiuconeac.client.features.featurex.exceptions.RequestException;
@@ -40,7 +40,7 @@ public class MainPresenterImpl implements MainPresenter {
 
             @Override
             protected Fruit doInBackground(Void... params) {
-                Util.simulateNetworkLatency(2000);
+                Util.simulateNetworkLatency(4000);
                 Fruit fruit = new Fruit("");
                 try {
                     fruit = model.getFruit1();
@@ -70,7 +70,7 @@ public class MainPresenterImpl implements MainPresenter {
 
             @Override
             protected Fruit doInBackground(Void... params) {
-                Util.simulateNetworkLatency(2000);
+                Util.simulateNetworkLatency(4000);
                 Fruit fruit = new Fruit("");
                 try {
                     fruit = model.getFruit2();
@@ -100,7 +100,7 @@ public class MainPresenterImpl implements MainPresenter {
 
             @Override
             protected Cheese doInBackground(Void... params) {
-                Util.simulateNetworkLatency(2000);
+                Util.simulateNetworkLatency(4000);
                 Cheese cheese = new Cheese("");
                 try {
                     cheese = model.getCheese1();
@@ -130,7 +130,7 @@ public class MainPresenterImpl implements MainPresenter {
 
             @Override
             protected Cheese doInBackground(Void... params) {
-                Util.simulateNetworkLatency(2000);
+                Util.simulateNetworkLatency(4000);
                 Cheese cheese = new Cheese("");
                 try {
                     cheese = model.getCheese2();
@@ -160,7 +160,7 @@ public class MainPresenterImpl implements MainPresenter {
 
             @Override
             protected Sweet doInBackground(Void... params) {
-                Util.simulateNetworkLatency(2000);
+                Util.simulateNetworkLatency(4000);
                 Sweet sweet = new Sweet("");
                 try {
                     sweet = model.getSweet1();
@@ -190,7 +190,7 @@ public class MainPresenterImpl implements MainPresenter {
 
             @Override
             protected Sweet doInBackground(Void... params) {
-                Util.simulateNetworkLatency(2000);
+                Util.simulateNetworkLatency(4000);
                 Sweet sweet = new Sweet("");
                 try {
                     sweet = model.getSweet2();

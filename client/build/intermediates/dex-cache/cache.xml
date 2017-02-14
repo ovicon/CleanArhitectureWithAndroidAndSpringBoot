@@ -2,283 +2,175 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\okhttp-3.3.0_038ff151b97c2eaf471962fbc9f0c1f9f1147b5c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_04c32bfc8f16ea4d44796edbbc1420265b09492d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_632d8698291a676f017b5a5e38eb964508242959.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_8b298473f47c5780be0f40acf26eba353fbbf13a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.2\479c1e06db31c432330183f5cae684163f186146\javax.annotation-api-1.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="479c1e06db31c432330183f5cae684163f186146">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\javax.annotation-api-1.2_982eb5a503da29694ca1af1601b2fbce29ecbb98.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\butterknife-annotations-8.5.1_ffce76b70c70ecd83dc4116ee675ffd2cd25a3b5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-idling-resource\2.2.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a890ee8445927649d9ed50f625a315d8758688be">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test.espresso-espresso-idling-resource-2.2.2_91a666bf8bbe56208d779db072a62d0560a361aa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support.test\rules\0.5\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test-rules-0.5_a48601652bb70bd17ed13b897410ef30b77c4243.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\gson-2.7_e59d53e11c5866054b74d8de0fb81c49dd3b7a78.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support.test\runner\0.5\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test-runner-0.5_3c18669d6f7ddb7ab9221a4794dcbcdd4fb7305a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.5.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.5.1_6b9a971cadd2cefcc509747f56036b790a2c7f8d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_f8bb879fe188adf8fe55eb0b3e5b4f7e3b422da3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_e40a5ae8e569f47ee1260f4e7e3a24a1c48d1eca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_aa324daaf4b36487740c091e89df37023e0cd0a7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\retrofit-2.1.0_8f6bf167a99b76894b2878f750dbbd1bef07baf8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_fe08e26cdbc653a21e626911f56840f7872c9f98.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_720efec0c430c9fcecb955c66bab82730eeab4fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_635df981ee493d71af079796ee3cda56b78f45f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_a9e2faebe48837ee7c3f0caeaa4c26798c12b8d6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\hamcrest-core-1.3_334debf7e99675efa29d862afdc25484b5789733.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-integration\1.3\5de0c73fef18917cd85d0ab70bb23818685e4dfd\hamcrest-integration-1.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\hamcrest-integration-1.3_ae04884f4c59995d2c13cd91c1fdbc4f408f9f0e.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\okio-1.8.0_4452564d0ab6b64a03d17b5ade1dcbcc0879575a.jar" />
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_4452564d0ab6b64a03d17b5ade1dcbcc0879575a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_632d8698291a676f017b5a5e38eb964508242959\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_04c32bfc8f16ea4d44796edbbc1420265b09492d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6453c2162c6be015bfd22a1cd31404119bd92223">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0d5624a9993d6a81bebdb406c28f4e49f4eda65b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_038ff151b97c2eaf471962fbc9f0c1f9f1147b5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.5.1_ffce76b70c70ecd83dc4116ee675ffd2cd25a3b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_635df981ee493d71af079796ee3cda56b78f45f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_f77f76c09990cfaf1e273442050ad88c691b4dac.jar" />
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_f77f76c09990cfaf1e273442050ad88c691b4dac\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\jsr305-2.0.1_bd83baefcdd48f85d85c688e7c2258e413ec1868.jar" />
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_8b298473f47c5780be0f40acf26eba353fbbf13a\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.1.1\67ff45d9ae02e583d0f9b3432a5ebbe05c30c966\javawriter-2.1.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.5.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\javawriter-2.1.1_5b8620b7bfead21898b2c01723377a45bcc2f25c.jar" />
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.5.1_6b9a971cadd2cefcc509747f56036b790a2c7f8d\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-library\1.3\4785a3c21320980282f9f33d0d1264a69040538f\hamcrest-library-1.3.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\hamcrest-library-1.3_390cc450d0a1b4eaab57cca11d48454540a9b92e.jar" />
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_f8bb879fe188adf8fe55eb0b3e5b4f7e3b422da3\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support.test\exposed-instrumentation-api-publish\0.5\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test-exposed-instrumentation-api-publish-0.5_4c3a490cbad7384698d201d63850db517ad3b884.jar" />
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_e59d53e11c5866054b74d8de0fb81c49dd3b7a78\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support.test.espresso\espresso-core\2.2.2\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test.espresso-espresso-core-2.2.2_1981f505ed5b8bd0400cd00d89517ce7a41eb171.jar" />
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_e40a5ae8e569f47ee1260f4e7e3a24a1c48d1eca\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Developer\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\junit-4.12_b920013e9a63253fba98845d6155a04138288b08.jar" />
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_fe08e26cdbc653a21e626911f56840f7872c9f98\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\models\build\libs\models.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b790f0b83b8561e3c01ab2456db1e8fd52cfc874">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\debug\models_9df4235b107b50abb5c8bfd2ca6a9f6ce079a6de.jar" />
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_8f6bf167a99b76894b2878f750dbbd1bef07baf8\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\pre-dexed\androidTest\debug\javax.inject-1_f6284a33816fbc8d5e22a265688cbe48c6e259d8.jar" />
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_aa324daaf4b36487740c091e89df37023e0cd0a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="473c32181f3c9c7223b9a55518efb516819d4423">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_06e39d726c13e64a51cb29a3755a379a9005861f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_720efec0c430c9fcecb955c66bab82730eeab4fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_a9e2faebe48837ee7c3f0caeaa4c26798c12b8d6\classes.dex" />
     </item>
 
 </items>
