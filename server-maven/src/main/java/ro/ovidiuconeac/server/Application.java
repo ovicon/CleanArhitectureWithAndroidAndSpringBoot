@@ -15,18 +15,18 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    @Bean
-    public FruitsBean fruitsBean() {
-        return new FruitsBeanImpl();
-    }
-
-    @Bean
-    public CheeseBean cheeseBean() {
-        return new CheeseBeanImpl();
-    }
-
-    @Bean
-    public SweetsBean sweetsBean() {
-        return new SweetsBeanImpl();
-    }
+//    @Bean
+//    public FruitsBean fruitsBean() {
+//        return new FruitsBeanImpl();
+//    }
+//
+//    @Bean
+//    public CheeseBean cheeseBean() {
+//        return new CheeseBeanImpl();
+//    }
+//
+//    @Bean
+//    public SweetsBean sweetsBean() {
+//        return new SweetsBeanImpl();
+//    }
 }
