@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<script type="application/javascript">
+
+    jQuery.ajax({
+        type: "GET",
+        url: "http://localhost:8080/ipv4address/ip",
+        dataType:"json",
+        success: function successCallback(result) {
+            document.write("Your IP " + result.ip);
+        },
+        error: function errorCallback(xhr, textStatus, errorThrown) {
+            document.write('fail ' + "error : " + textStatus);
+        }
+    });
+
+    document.write(Date());
+</script>
+</body>
+</html>

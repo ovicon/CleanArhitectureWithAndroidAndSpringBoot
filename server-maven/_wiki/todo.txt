@@ -1,0 +1,6 @@
+- find out why the database configuration works
+- handle empty tables (throw exceptions and get empty model in ui)
+- error mapping
+- deploy as jar
+- get local ip in java and disply it on the index.page
+- show the configured port in your web page

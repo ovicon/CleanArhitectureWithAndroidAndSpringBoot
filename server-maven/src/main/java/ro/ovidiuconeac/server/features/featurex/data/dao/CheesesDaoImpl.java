@@ -2,6 +2,8 @@ package ro.ovidiuconeac.server.features.featurex.data.dao;
 
 import org.springframework.stereotype.Repository;
 import ro.ovidiuconeac.models.features.featurex.Cheese;
+import ro.ovidiuconeac.server.features.featurex.data.entities.CheeseEntity;
+import ro.ovidiuconeac.server.features.featurex.data.transformers.CheeseTransformer;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -17,13 +19,21 @@ public class CheesesDaoImpl implements CheesesDao {
 
     @PersistenceContext
     private EntityManager entityManager;
+    private Random random;
+    private CheeseTransformer transformer;
 
-    private Random random = new Random();
+    public CheesesDaoImpl() {
+        random = new Random();
+        transformer = new CheeseTransformer();
+    }
 
     @Override
+    @SuppressWarnings("unchecked")
     public Cheese getRandomCheese() {
-        Query query = entityManager.createNativeQuery("SELECT a.id, a.name FROM cheeses a");
-        List<Cheese> result = query.getResultList();
-        return result.get(random.nextInt(14));
+        String sql = "SELECT c FROM cheese c";
+        Query query = entityManager.createQuery(sql);
+        List<CheeseEntity> result = query.getResultList();
+        CheeseEntity entity = result.get(random.nextInt(14));
+        return transformer.getModelFrom(entity);
     }
 }

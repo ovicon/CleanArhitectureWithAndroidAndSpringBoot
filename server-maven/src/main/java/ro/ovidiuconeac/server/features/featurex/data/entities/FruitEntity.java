@@ -1,11 +1,12 @@
 package ro.ovidiuconeac.server.features.featurex.data.entities;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 /**
  * Created by Ovidiu CONEAC on 2/14/2017.
  */
-@Entity
+@Entity(name = "fruit")
 @Table(name = "fruits")
 public class FruitEntity {
 
@@ -13,6 +14,7 @@ public class FruitEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @NotNull
     @Column(name = "name")
     private String name;
 
