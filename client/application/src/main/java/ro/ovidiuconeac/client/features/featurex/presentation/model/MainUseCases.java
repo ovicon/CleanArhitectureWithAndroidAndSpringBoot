@@ -1,17 +1,12 @@
 package ro.ovidiuconeac.client.features.featurex.presentation.model;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
 import java.io.IOException;
 
 import retrofit2.Call;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
+import ro.ovidiuconeac.client.features.featurex.rest.RestServiceApi;
 import ro.ovidiuconeac.models.features.featurex.Cheese;
 import ro.ovidiuconeac.models.features.featurex.Fruit;
 import ro.ovidiuconeac.models.features.featurex.Sweet;
-import ro.ovidiuconeac.client.features.common.Configuration;
 import ro.ovidiuconeac.client.features.featurex.exceptions.RequestException;
 
 /**
@@ -21,52 +16,39 @@ import ro.ovidiuconeac.client.features.featurex.exceptions.RequestException;
  */
 public class MainUseCases {
 
-    private MainRestCalls useCases;
-
-    public MainUseCases() {
-        Gson gson = new GsonBuilder()
-                .setLenient()
-                .create();
-        Retrofit service = new Retrofit.Builder()
-                .baseUrl(Configuration.BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create(gson))
-                .build();
-        useCases = service.create(MainRestCalls.class);
-    }
-
     // Use case "get Fruit 1"
-    public Fruit getFruit1() throws RequestException {
-        return fetchFruit();
+    public Fruit getFruit1(RestServiceApi restServiceApi) throws RequestException {
+        return fetchFruit(restServiceApi);
     }
 
     // Use case "get Fruit 2"
-    public Fruit getFruit2() throws RequestException {
-        return fetchFruit();
+    public Fruit getFruit2(RestServiceApi restServiceApi) throws RequestException {
+        return fetchFruit(restServiceApi);
     }
 
     // Use case "get Cheese 1"
-    public Cheese getCheese1() throws RequestException {
-        return fetchCheese();
+    public Cheese getCheese1(RestServiceApi restServiceApi) throws RequestException {
+        return fetchCheese(restServiceApi);
     }
 
     // Use case "get Cheese 2"
-    public Cheese getCheese2() throws RequestException {
-        return fetchCheese();
+    public Cheese getCheese2(RestServiceApi restServiceApi) throws RequestException {
+        return fetchCheese(restServiceApi);
     }
 
     // Use case "get Sweet 1"
-    public Sweet getSweet1() throws RequestException {
-        return fetchSweet();
+    public Sweet getSweet1(RestServiceApi restServiceApi) throws RequestException {
+        return fetchSweet(restServiceApi);
     }
 
     // Use case "get Sweet 2"
-    public Sweet getSweet2() throws RequestException {
-        return fetchSweet();
+    public Sweet getSweet2(RestServiceApi restServiceApi) throws RequestException {
+        return fetchSweet(restServiceApi);
     }
 
     // Backend call to get a random Fruit
-    private Fruit fetchFruit() throws RequestException{
-        Call<Fruit> call = useCases.fetchFruit();
+    private Fruit fetchFruit(RestServiceApi restServiceApi) throws RequestException{
+        Call<Fruit> call = restServiceApi.fetchFruit();
         try {
             return call.execute().body();
         } catch (IOException e) {
@@ -75,8 +57,8 @@ public class MainUseCases {
     }
 
     // Backend call to get a random Cheese
-    private Cheese fetchCheese() throws RequestException {
-        Call<Cheese> call = useCases.fetchCheese();
+    private Cheese fetchCheese(RestServiceApi restServiceApi) throws RequestException {
+        Call<Cheese> call = restServiceApi.fetchCheese();
         try {
             return call.execute().body();
         } catch (IOException e) {
@@ -85,8 +67,8 @@ public class MainUseCases {
     }
 
     // Backend call to get a random Sweet
-    private Sweet fetchSweet() throws RequestException {
-        Call<Sweet> call = useCases.fetchSweet();
+    private Sweet fetchSweet(RestServiceApi restServiceApi) throws RequestException {
+        Call<Sweet> call = restServiceApi.fetchSweet();
         try {
             return call.execute().body();
         } catch (IOException e) {

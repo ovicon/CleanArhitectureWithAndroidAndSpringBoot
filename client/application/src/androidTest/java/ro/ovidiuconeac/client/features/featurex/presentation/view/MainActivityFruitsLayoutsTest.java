@@ -22,6 +22,7 @@ import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
+import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
 
 @LargeTest
@@ -33,12 +34,22 @@ public class MainActivityFruitsLayoutsTest {
 
     @Test
     public void mainActivityFruitsLayoutsTest() {
+        ViewInteraction textView = onView(
+                allOf(withText("Fruits"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.activity_main),
+                                        0),
+                                1),
+                        isDisplayed()));
+        textView.check(matches(withText("Fruits")));
+
         ViewInteraction linearLayout = onView(
                 allOf(childAtPosition(
                         childAtPosition(
                                 withId(R.id.activity_main),
                                 0),
-                        1),
+                        2),
                         isDisplayed()));
         linearLayout.check(matches(isDisplayed()));
 
@@ -47,7 +58,7 @@ public class MainActivityFruitsLayoutsTest {
                         childAtPosition(
                                 withId(R.id.activity_main),
                                 0),
-                        2),
+                        3),
                         isDisplayed()));
         linearLayout2.check(matches(isDisplayed()));
 

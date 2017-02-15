@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorRed"
+        android:text="@string/server" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ImageButton
+            android:id="@+id/reload_server_connection"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:src="@drawable/ic_settings_backup_restore_black_24dp"/>
+
+        <EditText
+            android:id="@+id/server_connection"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:inputType="textUri" />
+
+        <Button
+            android:id="@+id/update_server_connection"
+            android:text="@string/update"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <include layout="@layout/server_base_url"/>
+        <include layout="@layout/server_connection"/>
 
         <TextView
             android:layout_width="wrap_content"

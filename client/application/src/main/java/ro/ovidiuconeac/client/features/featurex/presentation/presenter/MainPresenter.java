@@ -1,6 +1,7 @@
 package ro.ovidiuconeac.client.features.featurex.presentation.presenter;
 
 import ro.ovidiuconeac.client.features.common.Presenter;
+import ro.ovidiuconeac.client.features.featurex.rest.RestServiceApi;
 
 /**
  * Created by ovidiu on 2/6/17.
@@ -11,10 +12,10 @@ import ro.ovidiuconeac.client.features.common.Presenter;
  */
 
 public interface MainPresenter extends Presenter {
-    void requestFruit1();
-    void requestFruit2();
-    void requestCheese1();
-    void requestCheese2();
-    void requestSweet1();
-    void requestSweet2();
+    void requestFruit1(RestServiceApi restServiceApi);
+    void requestFruit2(RestServiceApi restServiceApi);
+    void requestCheese1(RestServiceApi restServiceApi);
+    void requestCheese2(RestServiceApi restServiceApi);
+    void requestSweet1(RestServiceApi restServiceApi);
+    void requestSweet2(RestServiceApi restServiceApi);
 }

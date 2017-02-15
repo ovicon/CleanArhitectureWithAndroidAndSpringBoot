@@ -6,8 +6,10 @@ import org.junit.Test;
 import org.mockito.Mockito;
 
 import ro.ovidiuconeac.client.features.featurex.exceptions.RequestException;
+import ro.ovidiuconeac.client.features.featurex.rest.RestServiceApi;
 
 import static org.junit.Assert.assertEquals;
+import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.when;
 
 /**
@@ -32,8 +34,8 @@ public class MainUseCasesWithRequestExceptionTest {
     public void testGetFruit1WithRequestException() {
         try {
             RequestException requestException = new RequestException();
-            when(mainUseCases.getFruit1()).thenThrow(requestException);
-            mainUseCases.getFruit1();
+            when(mainUseCases.getFruit1(any(RestServiceApi.class))).thenThrow(requestException);
+            mainUseCases.getFruit1(any(RestServiceApi.class));
         } catch (RequestException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }
@@ -43,8 +45,8 @@ public class MainUseCasesWithRequestExceptionTest {
     public void testGetFruit2WithRequestException() {
         try {
             RequestException requestException = new RequestException();
-            when(mainUseCases.getFruit2()).thenThrow(requestException);
-            mainUseCases.getFruit2();
+            when(mainUseCases.getFruit2(any(RestServiceApi.class))).thenThrow(requestException);
+            mainUseCases.getFruit2(any(RestServiceApi.class));
         } catch (RequestException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }
@@ -54,8 +56,8 @@ public class MainUseCasesWithRequestExceptionTest {
     public void testGetCheese1WithRequestException() {
         try {
             RequestException requestException = new RequestException();
-            when(mainUseCases.getCheese1()).thenThrow(requestException);
-            mainUseCases.getCheese1();
+            when(mainUseCases.getCheese1(any(RestServiceApi.class))).thenThrow(requestException);
+            mainUseCases.getCheese1(any(RestServiceApi.class));
         } catch (RequestException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }
@@ -65,8 +67,8 @@ public class MainUseCasesWithRequestExceptionTest {
     public void testGetCheese2WithRequestException() {
         try {
             RequestException requestException = new RequestException();
-            when(mainUseCases.getCheese2()).thenThrow(requestException);
-            mainUseCases.getCheese2();
+            when(mainUseCases.getCheese2(any(RestServiceApi.class))).thenThrow(requestException);
+            mainUseCases.getCheese2(any(RestServiceApi.class));
         } catch (RequestException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }
@@ -76,8 +78,8 @@ public class MainUseCasesWithRequestExceptionTest {
     public void testGetSweet1WithRequestException() {
         try {
             RequestException requestException = new RequestException();
-            when(mainUseCases.getSweet1()).thenThrow(requestException);
-            mainUseCases.getSweet1();
+            when(mainUseCases.getSweet1(any(RestServiceApi.class))).thenThrow(requestException);
+            mainUseCases.getSweet1(any(RestServiceApi.class));
         } catch (RequestException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }
@@ -87,8 +89,8 @@ public class MainUseCasesWithRequestExceptionTest {
     public void testGetSweet2WithRequestException() {
         try {
             RequestException requestException = new RequestException();
-            when(mainUseCases.getSweet2()).thenThrow(requestException);
-            mainUseCases.getSweet2();
+            when(mainUseCases.getSweet2(any(RestServiceApi.class))).thenThrow(requestException);
+            mainUseCases.getSweet2(any(RestServiceApi.class));
         } catch (RequestException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }

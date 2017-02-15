@@ -6,6 +6,7 @@ import android.os.Looper;
 
 import java.util.UUID;
 
+import ro.ovidiuconeac.client.features.featurex.rest.RestServiceApi;
 import ro.ovidiuconeac.models.features.featurex.Cheese;
 import ro.ovidiuconeac.models.features.featurex.Fruit;
 import ro.ovidiuconeac.models.features.featurex.Sweet;
@@ -35,7 +36,7 @@ public class MainPresenterImpl implements MainPresenter {
     }
 
     @Override
-    public void requestFruit1() {
+    public void requestFruit1(final RestServiceApi restServiceApi) {
         new AsyncTask<Void, Void, Fruit>() {
 
             @Override
@@ -43,7 +44,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Util.simulateNetworkLatency(4000);
                 Fruit fruit = new Fruit("");
                 try {
-                    fruit = model.getFruit1();
+                    fruit = model.getFruit1(restServiceApi);
                 } catch (RequestException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
@@ -65,7 +66,7 @@ public class MainPresenterImpl implements MainPresenter {
     }
 
     @Override
-    public void requestFruit2() {
+    public void requestFruit2(final RestServiceApi restServiceApi) {
         new AsyncTask<Void, Void, Fruit>() {
 
             @Override
@@ -73,7 +74,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Util.simulateNetworkLatency(4000);
                 Fruit fruit = new Fruit("");
                 try {
-                    fruit = model.getFruit2();
+                    fruit = model.getFruit2(restServiceApi);
                 } catch (RequestException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
@@ -95,7 +96,7 @@ public class MainPresenterImpl implements MainPresenter {
     }
 
     @Override
-    public void requestCheese1() {
+    public void requestCheese1(final RestServiceApi restServiceApi) {
         new AsyncTask<Void, Void, Cheese>() {
 
             @Override
@@ -103,7 +104,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Util.simulateNetworkLatency(4000);
                 Cheese cheese = new Cheese("");
                 try {
-                    cheese = model.getCheese1();
+                    cheese = model.getCheese1(restServiceApi);
                 } catch (RequestException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
@@ -125,7 +126,7 @@ public class MainPresenterImpl implements MainPresenter {
     }
 
     @Override
-    public void requestCheese2() {
+    public void requestCheese2(final RestServiceApi restServiceApi) {
         new AsyncTask<Void, Void, Cheese>() {
 
             @Override
@@ -133,7 +134,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Util.simulateNetworkLatency(4000);
                 Cheese cheese = new Cheese("");
                 try {
-                    cheese = model.getCheese2();
+                    cheese = model.getCheese2(restServiceApi);
                 } catch (RequestException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
@@ -155,7 +156,7 @@ public class MainPresenterImpl implements MainPresenter {
     }
 
     @Override
-    public void requestSweet1() {
+    public void requestSweet1(final RestServiceApi restServiceApi) {
         new AsyncTask<Void, Void, Sweet>() {
 
             @Override
@@ -163,7 +164,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Util.simulateNetworkLatency(4000);
                 Sweet sweet = new Sweet("");
                 try {
-                    sweet = model.getSweet1();
+                    sweet = model.getSweet1(restServiceApi);
                 } catch (RequestException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
@@ -185,7 +186,7 @@ public class MainPresenterImpl implements MainPresenter {
     }
 
     @Override
-    public void requestSweet2() {
+    public void requestSweet2(final RestServiceApi restServiceApi) {
         new AsyncTask<Void, Void, Sweet>() {
 
             @Override
@@ -193,7 +194,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Util.simulateNetworkLatency(4000);
                 Sweet sweet = new Sweet("");
                 try {
-                    sweet = model.getSweet2();
+                    sweet = model.getSweet2(restServiceApi);
                 } catch (RequestException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {

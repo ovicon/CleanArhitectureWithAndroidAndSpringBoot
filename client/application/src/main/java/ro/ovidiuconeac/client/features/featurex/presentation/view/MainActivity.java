@@ -1,23 +1,31 @@
 package ro.ovidiuconeac.client.features.featurex.presentation.view;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import java.util.UUID;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 import ro.ovidiuconeac.client.features.cache.Cache;
 import ro.ovidiuconeac.client.features.common.Configuration;
 import ro.ovidiuconeac.client.features.common.Presenter;
+import ro.ovidiuconeac.client.features.featurex.rest.RestServiceApi;
 import ro.ovidiuconeac.client.features.featurex.presentation.presenter.MainPresenter;
 import ro.ovidiuconeac.client.features.featurex.presentation.presenter.MainPresenterImpl;
 import ro.ovidiuconeac.presentationlayer.R;
@@ -25,8 +33,8 @@ import ro.ovidiuconeac.presentationlayer.R;
 public class MainActivity extends AppCompatActivity implements MainView {
 
     // Server
-    @BindView(R.id.base_url)
-    TextView serverBaseUrl;
+    @BindView(R.id.server_connection)
+    EditText serverConnection;
     // Fruit1
     @BindView(R.id.progressBarFruit1)
     ProgressBar progressBarFruit1;
@@ -70,7 +78,12 @@ public class MainActivity extends AppCompatActivity implements MainView {
     @BindView(R.id.get_sweet2)
     Button getSweet2;
 
+    private final String EXAMPLE_SERVER_CONNECTION = "http://192.168.0.112:8080";
+    private final String SERVER_CONNECTION = "SERVER_CONNECTION";
+
+    private SharedPreferences preferences;
     private MainPresenter presenter;
+    private RestServiceApi restServiceApi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,18 +96,45 @@ public class MainActivity extends AppCompatActivity implements MainView {
         progressBarCheese2.setVisibility(View.INVISIBLE);
         progressBarSweet1.setVisibility(View.INVISIBLE);
         progressBarSweet2.setVisibility(View.INVISIBLE);
+        preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         presenter = new MainPresenterImpl(this);
         // Hide keyboard
         getWindow().setSoftInputMode(
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN
         );
-        serverBaseUrl.setText(Configuration.BASE_URL);
+        serverConnection.setText(Configuration.BASE_URL);
+        createExampleServerConnection();
+        createRestService();
+    }
+
+    private void createRestService() {
+        Gson gson = new GsonBuilder()
+                .setLenient()
+                .create();
+        Retrofit service = new Retrofit.Builder()
+                .baseUrl(serverConnection.getText().toString())
+                .addConverterFactory(GsonConverterFactory.create(gson))
+                .build();
+        restServiceApi = service.create(RestServiceApi.class);
+    }
+
+    private void createExampleServerConnection() {
+        if (!preferences.contains(SERVER_CONNECTION)) {
+            SharedPreferences.Editor editor = preferences.edit();
+            editor.putString(SERVER_CONNECTION, EXAMPLE_SERVER_CONNECTION);
+            serverConnection.setText(EXAMPLE_SERVER_CONNECTION);
+            editor.apply();
+        } else {
+            serverConnection.setText(preferences.getString(SERVER_CONNECTION, EXAMPLE_SERVER_CONNECTION));
+        }
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         outState.putString("presenter_uuid", presenter.getUuid().toString());
         cachePresenter(presenter);
+        // Server connection
+        outState.putString("server_connection", serverConnection.getText().toString());
         // Fruit1
         outState.putInt("progressBarFruit1", progressBarFruit1.getVisibility());
         outState.putBoolean("fruit1", fruit1.isEnabled());
@@ -131,6 +171,8 @@ public class MainActivity extends AppCompatActivity implements MainView {
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         restorePresenter(UUID.fromString(savedInstanceState.getString("presenter_uuid")));
+        // Server connection
+        serverConnection.setText(savedInstanceState.getString("server_connection"));
         // Fruit1
         progressBarFruit1.setVisibility(savedInstanceState.getInt("progressBarFruit1") == View.VISIBLE ? View.VISIBLE : View.INVISIBLE);
         fruit1.setEnabled(savedInstanceState.getBoolean("fruit1"));
@@ -164,11 +206,31 @@ public class MainActivity extends AppCompatActivity implements MainView {
         super.onRestoreInstanceState(savedInstanceState);
     }
 
+    @OnClick(R.id.reload_server_connection)
+    @SuppressWarnings("unused")
+    public void reloadServerConnection() {
+        serverConnection.setText(preferences.getString(SERVER_CONNECTION, EXAMPLE_SERVER_CONNECTION));
+    }
+
+    @OnClick(R.id.update_server_connection)
+    @SuppressWarnings("unused")
+    public void updateServerConnection() {
+        String newServerConnection = serverConnection.getText().toString();
+        if (!serverConnection.getText().toString().isEmpty()) {
+            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+            SharedPreferences.Editor editor = preferences.edit();
+            editor.putString(SERVER_CONNECTION, newServerConnection);
+            editor.apply();
+        } else {
+            Toast.makeText(getApplicationContext(), getString(R.string.example_server_connection), Toast.LENGTH_LONG).show();
+        }
+    }
+
     @OnClick(R.id.get_fruit1)
     @Override
     public void requestFruit1() {
         enableUiFruit1(false);
-        presenter.requestFruit1();
+        presenter.requestFruit1(restServiceApi);
     }
 
     @Override
@@ -197,7 +259,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
     @Override
     public void requestFruit2() {
         enableUiFruit2(false);
-        presenter.requestFruit2();
+        presenter.requestFruit2(restServiceApi);
     }
 
     @Override
@@ -226,7 +288,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
     @Override
     public void requestCheese1() {
         enableUiCheese1(false);
-        presenter.requestCheese1();
+        presenter.requestCheese1(restServiceApi);
     }
 
     @Override
@@ -255,7 +317,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
     @Override
     public void requestCheese2() {
         enableUiCheese2(false);
-        presenter.requestCheese2();
+        presenter.requestCheese2(restServiceApi);
     }
 
     @Override
@@ -284,7 +346,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
     @Override
     public void requestSweet1() {
         enableUiSweet1(false);
-        presenter.requestSweet1();
+        presenter.requestSweet1(restServiceApi);
     }
 
     @Override
@@ -313,7 +375,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
     @Override
     public void requestSweet2() {
         enableUiSweet2(false);
-        presenter.requestSweet2();
+        presenter.requestSweet2(restServiceApi);
     }
 
     @Override
