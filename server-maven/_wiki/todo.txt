@@ -4,3 +4,5 @@
 - deploy as jar
 - get local ip in java and disply it on the index.page
 - show the configured port in your web page
+- fix inconsistency of " and ' in javascript
+- server connection is updated at recreate , <-issus

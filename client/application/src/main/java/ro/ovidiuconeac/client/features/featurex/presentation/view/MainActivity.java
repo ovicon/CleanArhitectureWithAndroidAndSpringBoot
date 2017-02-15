@@ -224,6 +224,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
         } else {
             Toast.makeText(getApplicationContext(), getString(R.string.example_server_connection), Toast.LENGTH_LONG).show();
         }
+        createRestService();
     }
 
     @OnClick(R.id.get_fruit1)
