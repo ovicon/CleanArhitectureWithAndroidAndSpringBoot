@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -25,9 +24,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import ro.ovidiuconeac.client.features.cache.Cache;
 import ro.ovidiuconeac.client.features.common.Configuration;
 import ro.ovidiuconeac.client.features.common.Presenter;
-import ro.ovidiuconeac.client.features.featurex.rest.RestServiceApi;
 import ro.ovidiuconeac.client.features.featurex.presentation.presenter.MainPresenter;
 import ro.ovidiuconeac.client.features.featurex.presentation.presenter.MainPresenterImpl;
+import ro.ovidiuconeac.client.features.featurex.rest.RestServiceApi;
 import ro.ovidiuconeac.presentationlayer.R;
 
 public class MainActivity extends AppCompatActivity implements MainView {

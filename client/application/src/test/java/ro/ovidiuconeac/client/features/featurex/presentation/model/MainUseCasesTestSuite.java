@@ -11,7 +11,8 @@ import org.junit.runners.Suite;
 
 @Suite.SuiteClasses({
         MainUseCasesTest.class,
-        MainUseCasesWithRequestExceptionTest.class
+        MainUseCasesWithRequestExceptionTest.class,
+        MainUseCasesWithNoResultExceptionTest.class
 })
 public class MainUseCasesTestSuite {
 }

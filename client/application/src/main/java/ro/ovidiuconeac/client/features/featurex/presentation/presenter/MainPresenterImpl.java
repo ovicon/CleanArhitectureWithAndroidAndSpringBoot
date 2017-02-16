@@ -6,15 +6,16 @@ import android.os.Looper;
 
 import java.util.UUID;
 
+import ro.ovidiuconeac.client.features.common.Screen;
+import ro.ovidiuconeac.client.features.common.Util;
+import ro.ovidiuconeac.client.features.featurex.exceptions.NoResultException;
+import ro.ovidiuconeac.client.features.featurex.exceptions.RequestException;
+import ro.ovidiuconeac.client.features.featurex.presentation.model.MainUseCases;
+import ro.ovidiuconeac.client.features.featurex.presentation.view.MainView;
 import ro.ovidiuconeac.client.features.featurex.rest.RestServiceApi;
 import ro.ovidiuconeac.models.features.featurex.Cheese;
 import ro.ovidiuconeac.models.features.featurex.Fruit;
 import ro.ovidiuconeac.models.features.featurex.Sweet;
-import ro.ovidiuconeac.client.features.common.Screen;
-import ro.ovidiuconeac.client.features.common.Util;
-import ro.ovidiuconeac.client.features.featurex.exceptions.RequestException;
-import ro.ovidiuconeac.client.features.featurex.presentation.model.MainUseCases;
-import ro.ovidiuconeac.client.features.featurex.presentation.view.MainView;
 
 /**
  * Created by ovidiu on 2/6/17.
@@ -45,7 +46,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Fruit fruit = new Fruit("");
                 try {
                     fruit = model.getFruit1(restServiceApi);
-                } catch (RequestException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
                         @Override
@@ -75,7 +76,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Fruit fruit = new Fruit("");
                 try {
                     fruit = model.getFruit2(restServiceApi);
-                } catch (RequestException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
                         @Override
@@ -105,7 +106,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Cheese cheese = new Cheese("");
                 try {
                     cheese = model.getCheese1(restServiceApi);
-                } catch (RequestException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
                         @Override
@@ -135,7 +136,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Cheese cheese = new Cheese("");
                 try {
                     cheese = model.getCheese2(restServiceApi);
-                } catch (RequestException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
                         @Override
@@ -165,7 +166,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Sweet sweet = new Sweet("");
                 try {
                     sweet = model.getSweet1(restServiceApi);
-                } catch (RequestException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
                         @Override
@@ -195,7 +196,7 @@ public class MainPresenterImpl implements MainPresenter {
                 Sweet sweet = new Sweet("");
                 try {
                     sweet = model.getSweet2(restServiceApi);
-                } catch (RequestException e) {
+                } catch (RequestException | NoResultException e) {
                     // Post on ui thread
                     new Handler(Looper.getMainLooper()).post(new Runnable() {
                         @Override

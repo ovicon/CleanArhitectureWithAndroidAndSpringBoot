@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
+import ro.ovidiuconeac.client.features.featurex.exceptions.NoResultException;
 import ro.ovidiuconeac.client.features.featurex.exceptions.RequestException;
 import ro.ovidiuconeac.client.features.featurex.rest.RestServiceApi;
 
@@ -33,10 +34,10 @@ public class MainUseCasesWithRequestExceptionTest {
     @Test
     public void testGetFruit1WithRequestException() {
         try {
-            RequestException requestException = new RequestException();
-            when(mainUseCases.getFruit1(any(RestServiceApi.class))).thenThrow(requestException);
+            when(mainUseCases.getFruit1(any(RestServiceApi.class)))
+                    .thenThrow(new RequestException());
             mainUseCases.getFruit1(any(RestServiceApi.class));
-        } catch (RequestException e) {
+        } catch (RequestException | NoResultException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }
     }
@@ -44,10 +45,10 @@ public class MainUseCasesWithRequestExceptionTest {
     @Test
     public void testGetFruit2WithRequestException() {
         try {
-            RequestException requestException = new RequestException();
-            when(mainUseCases.getFruit2(any(RestServiceApi.class))).thenThrow(requestException);
+            when(mainUseCases.getFruit2(any(RestServiceApi.class)))
+                    .thenThrow(new RequestException());
             mainUseCases.getFruit2(any(RestServiceApi.class));
-        } catch (RequestException e) {
+        } catch (RequestException | NoResultException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }
     }
@@ -55,10 +56,10 @@ public class MainUseCasesWithRequestExceptionTest {
     @Test
     public void testGetCheese1WithRequestException() {
         try {
-            RequestException requestException = new RequestException();
-            when(mainUseCases.getCheese1(any(RestServiceApi.class))).thenThrow(requestException);
+            when(mainUseCases.getCheese1(any(RestServiceApi.class)))
+                    .thenThrow(new RequestException());
             mainUseCases.getCheese1(any(RestServiceApi.class));
-        } catch (RequestException e) {
+        } catch (RequestException | NoResultException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }
     }
@@ -66,10 +67,10 @@ public class MainUseCasesWithRequestExceptionTest {
     @Test
     public void testGetCheese2WithRequestException() {
         try {
-            RequestException requestException = new RequestException();
-            when(mainUseCases.getCheese2(any(RestServiceApi.class))).thenThrow(requestException);
+            when(mainUseCases.getCheese2(any(RestServiceApi.class)))
+                    .thenThrow(new RequestException());
             mainUseCases.getCheese2(any(RestServiceApi.class));
-        } catch (RequestException e) {
+        } catch (RequestException | NoResultException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }
     }
@@ -77,10 +78,10 @@ public class MainUseCasesWithRequestExceptionTest {
     @Test
     public void testGetSweet1WithRequestException() {
         try {
-            RequestException requestException = new RequestException();
-            when(mainUseCases.getSweet1(any(RestServiceApi.class))).thenThrow(requestException);
+            when(mainUseCases.getSweet1(any(RestServiceApi.class)))
+                    .thenThrow(new RequestException());
             mainUseCases.getSweet1(any(RestServiceApi.class));
-        } catch (RequestException e) {
+        } catch (RequestException | NoResultException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }
     }
@@ -88,10 +89,10 @@ public class MainUseCasesWithRequestExceptionTest {
     @Test
     public void testGetSweet2WithRequestException() {
         try {
-            RequestException requestException = new RequestException();
-            when(mainUseCases.getSweet2(any(RestServiceApi.class))).thenThrow(requestException);
+            when(mainUseCases.getSweet2(any(RestServiceApi.class)))
+                    .thenThrow(new RequestException());
             mainUseCases.getSweet2(any(RestServiceApi.class));
-        } catch (RequestException e) {
+        } catch (RequestException | NoResultException e) {
             assertEquals("Request exception. Unable to contact server.", e.getMessage());
         }
     }
