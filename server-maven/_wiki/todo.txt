@@ -1,8 +1,7 @@
+- create tests
+
 - find out why the database configuration works
-- handle empty tables (throw exceptions and get empty model in ui)
-- error mapping
 - deploy as jar
-- get local ip in java and disply it on the index.page
-- show the configured port in your web page
-- fix inconsistency of " and ' in javascript
-- server connection is updated at recreate , <-issus
+- server connection is updated at recreate in client , <-issus
+- add jquery and css to public - how to ?, what is the bebst way ?
+- center server connection in page

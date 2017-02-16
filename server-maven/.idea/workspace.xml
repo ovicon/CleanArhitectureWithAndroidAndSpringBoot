@@ -2,18 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f41be7-67ba-4aeb-8f45-da006f213ff5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/presentation/ServerConnectionController.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/target/classes/ro/ovidiuconeac/models/features/ipv4address/Ip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ipv4address/presentation/IpController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/ipv4address/business/IpBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/ipv4address/business/IpBeanImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/ipv4address/presentation/IpController.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/ipv4address/Ip.java" afterPath="$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/serverconnection/ServerConnection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ipv4address/business/IpBean.java" afterPath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/business/ServerConnectionBean.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ipv4address/business/IpBeanImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/business/ServerConnectionBeanImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/common/Configuration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/FruitsBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/SweetsBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/CheesesDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/CheesesDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/FruitsDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/FruitsDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/SweetsDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/SweetsDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/CheeseEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/FruitEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/SweetEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/transformers/CheeseTransformer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/transformers/FruitTransformer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/transformers/SweetTransformer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/CheesesController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/FruitsController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/SweetsController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/BeanImplTestSuite.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImplTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/presentation/CheesesControllerGetTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/presentation/ControllerGetTestSuite.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/presentation/FruitsControllerGetTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/presentation/SweetsControllerGetTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/business/FruitsBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/business/SweetsBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/dao/CheesesDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/dao/CheesesDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/dao/FruitsDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/dao/FruitsDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/dao/SweetsDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/dao/SweetsDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/entities/CheeseEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/entities/FruitEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/entities/SweetEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/transformers/CheeseTransformer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/transformers/FruitTransformer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/data/transformers/SweetTransformer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/CheesesController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/FruitsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ro/ovidiuconeac/server/features/featurex/presentation/SweetsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ro/ovidiuconeac/server/features/featurex/business/BeanImplTestSuite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ro/ovidiuconeac/server/features/featurex/presentation/CheesesControllerGetTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ro/ovidiuconeac/server/features/featurex/presentation/ControllerGetTestSuite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ro/ovidiuconeac/server/features/featurex/presentation/FruitsControllerGetTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ro/ovidiuconeac/server/features/featurex/presentation/SweetsControllerGetTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/androidTest/java/ro/ovidiuconeac/client/features/featurex/presentation/view/MainActivityCheesesLayoutsTest.java" afterPath="$PROJECT_DIR$/../client/application/src/androidTest/java/ro/ovidiuconeac/client/features/food/presentation/view/MainActivityCheesesLayoutsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/androidTest/java/ro/ovidiuconeac/client/features/featurex/presentation/view/MainActivityFruitsLayoutsTest.java" afterPath="$PROJECT_DIR$/../client/application/src/androidTest/java/ro/ovidiuconeac/client/features/food/presentation/view/MainActivityFruitsLayoutsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/androidTest/java/ro/ovidiuconeac/client/features/featurex/presentation/view/MainActivityServerConnectionLayoutsTest.java" afterPath="$PROJECT_DIR$/../client/application/src/androidTest/java/ro/ovidiuconeac/client/features/food/presentation/view/MainActivityServerConnectionLayoutsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/androidTest/java/ro/ovidiuconeac/client/features/featurex/presentation/view/MainActivitySweetsLayoutsTest.java" afterPath="$PROJECT_DIR$/../client/application/src/androidTest/java/ro/ovidiuconeac/client/features/food/presentation/view/MainActivitySweetsLayoutsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/cache/Cache.java" afterPath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/common/Cache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/featurex/exceptions/NoResultException.java" afterPath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/food/exceptions/NoResultException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/featurex/exceptions/RequestException.java" afterPath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/food/exceptions/RequestException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainUseCases.java" afterPath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/food/presentation/model/FoodUseCases.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/presenter/MainPresenter.java" afterPath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/food/presentation/presenter/FoodPresenter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/presenter/MainPresenterImpl.java" afterPath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/food/presentation/presenter/FoodPresenterImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/view/MainActivity.java" afterPath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/food/presentation/view/FoodActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/view/MainView.java" afterPath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/food/presentation/view/FoodView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/featurex/rest/RestServiceApi.java" afterPath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/food/rest/RestServiceApi.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/test/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainUseCasesTest.java" afterPath="$PROJECT_DIR$/../client/application/src/test/java/ro/ovidiuconeac/client/features/food/presentation/model/FoodUseCasesTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/test/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainUseCasesTestSuite.java" afterPath="$PROJECT_DIR$/../client/application/src/test/java/ro/ovidiuconeac/client/features/food/presentation/model/MainUseCasesTestSuite.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/test/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainUseCasesWithNoResultExceptionTest.java" afterPath="$PROJECT_DIR$/../client/application/src/test/java/ro/ovidiuconeac/client/features/food/presentation/model/FoodUseCasesWithNoResultExceptionTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../client/application/src/test/java/ro/ovidiuconeac/client/features/featurex/presentation/model/MainUseCasesWithRequestExceptionTest.java" afterPath="$PROJECT_DIR$/../client/application/src/test/java/ro/ovidiuconeac/client/features/food/presentation/model/FoodUseCasesWithRequestExceptionTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../client/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../client/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../client/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -21,13 +85,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../client/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../client/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/application/application.iml" afterPath="$PROJECT_DIR$/../client/application/application.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/view/MainActivity.java" afterPath="$PROJECT_DIR$/../client/application/src/main/java/ro/ovidiuconeac/client/features/featurex/presentation/view/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/application/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../client/application/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/application/src/main/res/layout-land/activity_main.xml" afterPath="$PROJECT_DIR$/../client/application/src/main/res/layout-land/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/application/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../client/application/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/../client/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_wiki/todo.txt" afterPath="$PROJECT_DIR$/_wiki/todo.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/public/index.html" afterPath="$PROJECT_DIR$/target/classes/public/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,128 +108,98 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerConnectionBeanImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/business/ServerConnectionBeanImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="todo.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_wiki/todo.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+            <state relative-caret-position="132">
+              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerConnectionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/presentation/ServerConnectionController.java">
+      <file leaf-file-name="BeanImplTestSuite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/business/BeanImplTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="286">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheeseBeanImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/business/CheeseBeanImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerConnectionBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/business/ServerConnectionBean.java">
+      <file leaf-file-name="FruitsBeanImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/business/FruitsBeanImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="450">
+              <caret line="53" column="51" lean-forward="false" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/serverconnection/ServerConnection.java">
+      <file leaf-file-name="SweetsBeanImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/business/SweetsBeanImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="362">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheeseTransformer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/data/transformers/CheeseTransformer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="30" />
+              <folding>
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheeseTransformerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/data/transformers/CheeseTransformerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoResultException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/exceptions/NoResultException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="43" />
+              <folding>
+                <element signature="e#441#442#0" expanded="true" />
                 <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fruit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Fruit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#157#158#0" expanded="false" />
-                <element signature="e#189#190#0" expanded="false" />
-                <element signature="e#220#221#0" expanded="false" />
-                <element signature="e#247#248#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sweet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Sweet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#157#158#0" expanded="false" />
-                <element signature="e#190#191#0" expanded="false" />
-                <element signature="e#221#222#0" expanded="false" />
-                <element signature="e#254#255#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Food.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Food.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <element signature="e#459#460#0" expanded="false" />
-                <element signature="e#516#517#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -198,38 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/FruitsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/SweetsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/WebConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/repositories/CheesesRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/CheeseEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/SweetsEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/transformers/TransformEntityToModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/FoodEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/FruitEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/transformers/CheeseEntityToCheeseModelTransformer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/SweetEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/transformers/CheeseTransformer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/transformers/FruitTransformer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/transformers/SweetTransformer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/CheesesDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/FruitsDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/SweetsDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/static/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/error/error.html" />
-        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/presentation/CheesesControllerGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/presentation/FruitsControllerGetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/presentation/SweetsControllerGetTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ip/presentation/CheesesController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ip/presentation/IpController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ipv4address/business/FruitsBeanImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ipv4address/presentation/CheesesController.java" />
@@ -247,8 +248,40 @@
         <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/business/ServerConnectionBeanImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/presentation/ServerConnectionController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/_wiki/todo.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/public/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/SweetsController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/CheesesDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/exceptions/SweetsNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/exceptions/FruitNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/exceptions/CheeseNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/exceptions/CheeseNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/controllers/SweetsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/FruitsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/CheesesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/FoodController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/CheesesDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/FruitsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/SweetsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/SweetsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/FruitsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/exceptions/SweetNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/exceptions/CheeseNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/exceptions/FruitNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/NoResultException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/exceptions/NoResultException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImplTest.java" />
+        <option value="$PROJECT_DIR$/_wiki/todo.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/business/SweetsBeanImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/business/FruitsBeanImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/business/CheeseBeanImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/data/transformers/CheeseTransformerTest.java" />
       </list>
     </option>
   </component>
@@ -295,9 +328,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -332,11 +365,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="featurex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presentation" />
+              <option name="myItemId" value="food" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,7 +391,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="featurex" />
+              <option name="myItemId" value="food" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transformers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,32 +439,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -469,12 +476,38 @@
               <option name="myItemId" value="features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="serverconnection" />
+              <option name="myItemId" value="server-maven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server-maven" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="presentation" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="food" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -508,45 +541,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="serverconnection" />
+              <option name="myItemId" value="food" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-maven" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="featurex" />
+              <option name="myItemId" value="transformers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -580,11 +583,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="featurex" />
+              <option name="myItemId" value="food" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -716,12 +719,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\server-maven\src\main\resources" />
+      <recent name="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\server-maven\presentation-layer\src\main\java\ro.ovidiuconeac.server.presentationlayer" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ro.ovidiuconeac.server.features.featurex.presentation" />
       <recent name="ro.ovidiuconeac.models.features" />
       <recent name="ro.ovidiuconeac.server.features" />
       <recent name="ro.ovidiuconeac.server.features.featurex" />
       <recent name="ro.ovidiuconeac.server" />
-      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ro.ovidiuconeac.server.features.featurex.presentation" />
+      <recent name="ro.ovidiuconeac.server.features.featurex.exceptions" />
+      <recent name="ro.ovidiuconeac.server.features.ipv4address.business" />
+      <recent name="ro.ovidiuconeac.server.features.featurex.data.transformers" />
+      <recent name="ro.ovidiuconeac.server.features.featurex.data.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\server-maven\src\main\java\ro\ovidiuconeac\server\features\ipv4address" />
@@ -730,30 +744,71 @@
       <recent name="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\server-maven\src\main\java\ro\ovidiuconeac\server\features\featurex\data" />
       <recent name="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\server-maven\src\main\java\ro\ovidiuconeac\server\features\featurex\business" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ro.ovidiuconeac.server.features.ipv4address.business" />
-      <recent name="ro.ovidiuconeac.server.features.featurex.data.transformers" />
-      <recent name="ro.ovidiuconeac.server.features.featurex.data.entities" />
-      <recent name="ro.ovidiuconeac.server.features.featurex.business" />
-      <recent name="ro.ovidiuconeac.server.features.featurex.presentation" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\server-maven\src\main\resources" />
-      <recent name="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\server-maven\presentation-layer\src\main\java\ro.ovidiuconeac.server.presentationlayer" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration default="false" name="ro.ovidiuconeac.server.features.featurex.presentation in server-maven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CheeseTransformerTest">
+    <configuration default="false" name="CheeseBeanImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ro.ovidiuconeac.server.features.featurex.presentation.*" />
+          <option name="PATTERN" value="ro.ovidiuconeac.server.features.food.business.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="server-maven" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.server.features.featurex.presentation" />
+      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.server.features.food.business" />
+      <option name="MAIN_CLASS_NAME" value="ro.ovidiuconeac.server.features.food.business.CheeseBeanImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FruitsBeanImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ro.ovidiuconeac.server.features.food.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="server-maven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.server.features.food.business" />
+      <option name="MAIN_CLASS_NAME" value="ro.ovidiuconeac.server.features.food.business.FruitsBeanImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ro.ovidiuconeac.server.features.food.business in server-maven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ro.ovidiuconeac.server.features.food.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="server-maven" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.server.features.food.business" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
@@ -769,20 +824,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ro.ovidiuconeac.server.features.featurex in server-maven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SweetsBeanImplTest.testGetCheese3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ro.ovidiuconeac.server.features.featurex.*" />
+          <option name="PATTERN" value="ro.ovidiuconeac.server.features.food.business.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="server-maven" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.server.features.featurex" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.server.features.food.business" />
+      <option name="MAIN_CLASS_NAME" value="ro.ovidiuconeac.server.features.food.business.SweetsBeanImplTest" />
+      <option name="METHOD_NAME" value="testGetCheese3" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -795,20 +850,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ro.ovidiuconeac.server.features.featurex.business in server-maven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CheeseTransformerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ro.ovidiuconeac.server.features.featurex.business.*" />
+          <option name="PATTERN" value="ro.ovidiuconeac.server.features.food.data.transformers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="server-maven" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.server.features.featurex.business" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="ro.ovidiuconeac.server.features.food.data.transformers" />
+      <option name="MAIN_CLASS_NAME" value="ro.ovidiuconeac.server.features.food.data.transformers.CheeseTransformerTest" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -819,46 +874,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ro.ovidiuconeac.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ro.ovidiuconeac.server.Application" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="server-maven" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ro.ovidiuconeac.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ro.ovidiuconeac.server.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="server-maven" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1087,19 +1102,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.server.features.featurex.presentation in server-maven" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.server.features.featurex in server-maven" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.server.features.featurex.business in server-maven" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Application" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CheeseBeanImplTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FruitsBeanImplTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.server.features.food.business in server-maven" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SweetsBeanImplTest.testGetCheese3" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CheeseTransformerTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.server.features.featurex.presentation in server-maven" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.server.features.featurex.business in server-maven" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.server.features.featurex in server-maven" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CheeseTransformerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.server.features.food.business in server-maven" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SweetsBeanImplTest.testGetCheese3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FruitsBeanImplTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CheeseBeanImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1117,26 +1132,20 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheeseBeanImplTest_testGetCheese - 2017.02.14 at 18h 46m 03s.xml">
-      <configuration name="CheeseBeanImplTest.testGetCheese" configurationId="JUnit" />
+    <history-entry file="CheeseBeanImplTest - 2017.02.16 at 23h 21m 40s.xml">
+      <configuration name="CheeseBeanImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ro_ovidiuconeac_server_features_featurex_business_in_server-maven - 2017.02.14 at 18h 50m 29s.xml">
-      <configuration name="ro.ovidiuconeac.server.features.featurex.business in server-maven" configurationId="JUnit" />
+    <history-entry file="CheeseBeanImplTest - 2017.02.16 at 23h 23m 19s.xml">
+      <configuration name="CheeseBeanImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ro_ovidiuconeac_server_features_featurex_business_in_server-maven - 2017.02.14 at 20h 03m 46s.xml">
-      <configuration name="ro.ovidiuconeac.server.features.featurex.business in server-maven" configurationId="JUnit" />
+    <history-entry file="CheeseTransformerTest - 2017.02.16 at 23h 35m 57s.xml">
+      <configuration name="CheeseTransformerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ro_ovidiuconeac_server_features_featurex_in_server-maven - 2017.02.14 at 18h 48m 28s.xml">
-      <configuration name="ro.ovidiuconeac.server.features.featurex in server-maven" configurationId="JUnit" />
+    <history-entry file="FruitsBeanImplTest - 2017.02.16 at 23h 25m 50s.xml">
+      <configuration name="FruitsBeanImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ro_ovidiuconeac_server_features_featurex_in_server-maven - 2017.02.14 at 18h 53m 26s.xml">
-      <configuration name="ro.ovidiuconeac.server.features.featurex in server-maven" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ro_ovidiuconeac_server_features_featurex_in_server-maven - 2017.02.14 at 18h 55m 02s.xml">
-      <configuration name="ro.ovidiuconeac.server.features.featurex in server-maven" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ro_ovidiuconeac_server_features_featurex_in_server-maven - 2017.02.14 at 19h 47m 56s.xml">
-      <configuration name="ro.ovidiuconeac.server.features.featurex in server-maven" configurationId="JUnit" />
+    <history-entry file="SweetsBeanImplTest_testGetCheese3 - 2017.02.16 at 23h 28m 29s.xml">
+      <configuration name="SweetsBeanImplTest.testGetCheese3" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ro_ovidiuconeac_server_features_featurex_presentation_in_server-maven - 2017.02.14 at 18h 19m 35s.xml">
       <configuration name="ro.ovidiuconeac.server.features.featurex.presentation in server-maven" configurationId="JUnit" />
@@ -1147,10 +1156,16 @@
     <history-entry file="ro_ovidiuconeac_server_features_featurex_presentation_in_server-maven - 2017.02.14 at 20h 07m 36s.xml">
       <configuration name="ro.ovidiuconeac.server.features.featurex.presentation in server-maven" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ro_ovidiuconeac_server_features_food_business_in_server-maven - 2017.02.16 at 23h 27m 33s.xml">
+      <configuration name="ro.ovidiuconeac.server.features.food.business in server-maven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ro_ovidiuconeac_server_features_food_business_in_server-maven - 2017.02.16 at 23h 30m 48s.xml">
+      <configuration name="ro.ovidiuconeac.server.features.food.business in server-maven" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2066" height="1120" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1175,7 +1190,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27466938" sideWeight="0.49804688" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19735503" sideWeight="0.49804688" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24804688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38232422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1233,145 +1248,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/database/DatabaseImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/CheesesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.0.RELEASE/spring-data-commons-1.13.0.RELEASE.jar!/org/springframework/data/repository/Repository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/repositories/CheesesRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/FoodEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/CheeseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/FruitEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/entities/SweetEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/transformers/FruitTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/transformers/SweetTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/transformers/CheeseTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/FruitsDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/SweetsDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/data/dao/CheesesDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/error/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/presentation/CheesesControllerGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/presentation/FruitsControllerGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/featurex/presentation/SweetsControllerGetTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/presentation/SweetsControllerGetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
@@ -1390,61 +1267,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ipv4address/presentation/FruitsController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ipv4address/business/FruitsBeanImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ipv4address/business/IPv4AddressBeanImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/CheeseBeanImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="21" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/FruitsBeanImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="e#491#492#0" expanded="false" />
-            <element signature="e#534#535#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/business/SweetsBeanImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/Main.java" />
     <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/featurex/Sweet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#157#158#0" expanded="false" />
-            <element signature="e#190#191#0" expanded="false" />
-            <element signature="e#221#222#0" expanded="false" />
-            <element signature="e#254#255#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1452,10 +1280,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#459#460#0" expanded="false" />
-            <element signature="e#516#517#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1463,12 +1288,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#157#158#0" expanded="false" />
-            <element signature="e#189#190#0" expanded="false" />
-            <element signature="e#220#221#0" expanded="false" />
-            <element signature="e#247#248#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1483,36 +1303,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ipv4address/business/PortBeanImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/ipv4address/business/PortBeanImpl.java" />
     <entry file="file://$PROJECT_DIR$/models/src/main/java/ro/ovidiuconeac/models/features/serverconnection/ServerConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/business/ServerConnectionBeanImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1524,18 +1320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/presentation/ServerConnectionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1544,19 +1328,286 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_wiki/todo.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        <state relative-caret-position="220">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/index.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.6.RELEASE/spring-web-4.3.6.RELEASE.jar!/org/springframework/http/HttpStatus.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="226">
+          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/business/ServerConnectionBeanImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/FruitsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/featurex/presentation/CheesesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/serverconnection/presentation/ServerConnectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/presentation/FoodController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="42" column="58" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/data/dao/CheesesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/data/dao/FruitsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/data/dao/CheesesDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/data/dao/SweetsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/data/dao/FruitsDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/data/exceptions/CheeseNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/data/exceptions/FruitNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/data/exceptions/SweetNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/business/CheeseBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/business/CheeseBeanImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/business/FruitsBeanImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/business/SweetsBeanImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/data/dao/SweetsDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/presentation/CheesesControllerGetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_wiki/todo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/exceptions/NoResultException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/business/FruitsBeanImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="53" column="51" lean-forward="false" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/business/SweetsBeanImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/business/BeanImplTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/business/CheeseBeanImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/server/features/food/data/transformers/CheeseTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/server/features/food/data/transformers/CheeseTransformerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
