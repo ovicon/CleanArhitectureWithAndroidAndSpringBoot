@@ -23,6 +23,7 @@ public class ServerConnectionBeanImpl implements ServerConnectionBean {
         String host = null;
         try {
             if (InetAddress.getLocalHost().isLoopbackAddress()) {
+                // If you use a desktop PC with a cabel connection
                 host = "10.0.2.2";
             } else {
                 ip = InetAddress.getLocalHost();
