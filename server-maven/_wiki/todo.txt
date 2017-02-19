@@ -1,5 +1,5 @@
-- create tests
-
+- location of database
+- does not work on linux and windows
 - find out why the database configuration works
 - deploy as jar
 - server connection is updated at recreate in client , <-issus

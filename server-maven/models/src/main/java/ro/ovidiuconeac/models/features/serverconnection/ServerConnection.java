@@ -9,9 +9,9 @@ public class ServerConnection {
     private String host;
     private String port;
 
-    public ServerConnection(String scheme, String ip, String port) {
+    public ServerConnection(String scheme, String host, String port) {
         this.scheme = scheme;
-        this.host = ip;
+        this.host = host;
         this.port = port;
     }
 
