@@ -101,10 +101,10 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN
         );
         createExampleServerConnection();
-        createRestService();
+        initializeRestService();
     }
 
-    private void createRestService() {
+    private void initializeRestService() {
         Gson gson = new GsonBuilder()
                 .setLenient()
                 .create();
@@ -113,6 +113,7 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         restServiceApi = service.create(RestServiceApi.class);
+        Toast.makeText(getApplicationContext(), getString(R.string.initialize_rest_service), Toast.LENGTH_SHORT).show();
     }
 
     private void createExampleServerConnection() {
@@ -211,17 +212,17 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
 
     @OnClick(R.id.update_server_connection)
     @SuppressWarnings("unused")
-    public void updateServerConnection() {
+    public void updateServerConnectionAndInitializeRestService() {
         String newServerConnection = serverConnection.getText().toString();
         if (!serverConnection.getText().toString().isEmpty()) {
             SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
             SharedPreferences.Editor editor = preferences.edit();
             editor.putString(SERVER_CONNECTION, newServerConnection);
             editor.apply();
+            initializeRestService();
         } else {
             Toast.makeText(getApplicationContext(), getString(R.string.example_server_connection), Toast.LENGTH_LONG).show();
         }
-        createRestService();
     }
 
     @OnClick(R.id.get_fruit1)
