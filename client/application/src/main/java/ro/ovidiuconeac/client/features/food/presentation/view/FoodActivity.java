@@ -109,7 +109,7 @@ public class FoodActivity extends AppCompatActivity implements FoodView {
                 .setLenient()
                 .create();
         Retrofit service = new Retrofit.Builder()
-                .baseUrl("http://192.168.0.107:1984")
+                .baseUrl(serverConnection.getText().toString())
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         restServiceApi = service.create(RestServiceApi.class);
