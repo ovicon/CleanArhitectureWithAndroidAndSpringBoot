@@ -3,174 +3,174 @@
 
     <item
         is-multidex="true"
-        jar="/home/ovidiu/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_118178e65e1152e91483cd88f596a415e47f4d1e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_c6eaa68493856491bb4de908665330e4c9b650ab/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_ac098d36e79b0a7413c92e06e1c124c487b8e2d8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_a1c432cd13d8db9f692879373bee235890c2be19/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_17d8498dfa12dddcbfaee4e3effe983d56d1200c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_4332892eec9825ac35d4963868e04d8f789c75b3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_da2db01fa454b114304b0c23bb30e01050b871a6/classes.dex" />
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_4452564d0ab6b64a03d17b5ade1dcbcc0879575a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_fe9d01d2a7f9f1ca34237462a5e57cfa3e4200da/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="782a12ad5789db3c4d1c75a1673820f001af5a34">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_991acda2120b38922caa182f4c5f87c8cfb8fb0e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.5.1_58d2265ea2536befaaed1b0d5adcaa4310fb333c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.5.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.5.1_dfc00aa7ca0ca9fb9f8a30165172a72d4ef4d191/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_60b1171ee14489aab789d5b97dfa91ac5fce3aca/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_364fe76f752efbd42adc5d345c9c0f5fa7a924aa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/Developer/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_2a2b2a19f8ec9a0772d2173800bc040a7290cf59/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cea7e63c41766b83a9cb76f5f1d4edcd039d295e">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_99f6b1169370846bdf06f5f416e88e1b8c4b317f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_03fde8c97b6c92f10cddd45db4514662e693fa66/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_41f963b2d6b0608a0bf874183ef5573d3a95e377/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_e900dc9e4dc932caf2e36fd69ebf13b7a2fbb049/classes.dex" />
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_632d8698291a676f017b5a5e38eb964508242959\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_04c32bfc8f16ea4d44796edbbc1420265b09492d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcbfb320203fe676a34645d619056ec9f1cba54b">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0d5624a9993d6a81bebdb406c28f4e49f4eda65b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_038ff151b97c2eaf471962fbc9f0c1f9f1147b5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.5.1_ffce76b70c70ecd83dc4116ee675ffd2cd25a3b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_635df981ee493d71af079796ee3cda56b78f45f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_f77f76c09990cfaf1e273442050ad88c691b4dac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_8b298473f47c5780be0f40acf26eba353fbbf13a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.5.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.5.1_6b9a971cadd2cefcc509747f56036b790a2c7f8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_f8bb879fe188adf8fe55eb0b3e5b4f7e3b422da3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_e59d53e11c5866054b74d8de0fb81c49dd3b7a78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/client/application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_ce233be6a86119d9254d0474917e7288b17d54e8/classes.dex" />
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_e40a5ae8e569f47ee1260f4e7e3a24a1c48d1eca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_fe08e26cdbc653a21e626911f56840f7872c9f98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ovidiu CONEAC\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_8f6bf167a99b76894b2878f750dbbd1bef07baf8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_aa324daaf4b36487740c091e89df37023e0cd0a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a48bbe046e822b12e7cdeaeaed859c5750847140">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_06e39d726c13e64a51cb29a3755a379a9005861f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_720efec0c430c9fcecb955c66bab82730eeab4fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Developer\workspace\CleanArhitectureWIthAndroidAndSpringBoot\client\application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_a9e2faebe48837ee7c3f0caeaa4c26798c12b8d6\classes.dex" />
     </item>
 
 </items>

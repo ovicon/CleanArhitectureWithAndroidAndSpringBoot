@@ -16,12 +16,12 @@ import ro.ovidiuconeac.models.features.featurex.Sweet;
 
 public interface RestServiceApi {
 
-    @GET("featurex/fruit")
+    @GET("food/fruit")
     Call<Fruit> fetchFruit();
 
-    @GET("featurex/cheese")
+    @GET("food/cheese")
     Call<Cheese> fetchCheese();
 
-    @GET("featurex/sweet")
+    @GET("food/sweet")
     Call<Sweet> fetchSweet();
 }
