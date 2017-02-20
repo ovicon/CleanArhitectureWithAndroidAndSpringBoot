@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.server.features.serverconnection.presentation;
+package ro.ovidiuconeac.server.features.serverconnection.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

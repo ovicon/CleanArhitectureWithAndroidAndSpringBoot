@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.server.features.food.presentation;
+package ro.ovidiuconeac.server.features.food.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package ro.ovidiuconeac.server.features.serverconnection.presentation;
+package ro.ovidiuconeac.server.features.serverconnection.api;
 
 /**
  * Created by Ovidiu CONEAC on 2/12/2017.
