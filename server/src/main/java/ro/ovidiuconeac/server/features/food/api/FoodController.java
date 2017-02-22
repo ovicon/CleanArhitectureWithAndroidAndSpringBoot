@@ -19,14 +19,16 @@ import ro.ovidiuconeac.server.features.food.exceptions.NoResultException;
 @RequestMapping("/food")
 public class FoodController {
 
-    @Autowired
-    private FruitsBean fruitsBean;
+    private final FruitsBean fruitsBean;
+    private final CheeseBean cheeseBean;
+    private final SweetsBean sweetsBean;
 
     @Autowired
-    private CheeseBean cheeseBean;
-
-    @Autowired
-    private SweetsBean sweetsBean;
+    public FoodController(FruitsBean fruitsBean, CheeseBean cheeseBean, SweetsBean sweetsBean) {
+        this.fruitsBean = fruitsBean;
+        this.cheeseBean = cheeseBean;
+        this.sweetsBean = sweetsBean;
+    }
 
     @RequestMapping("/fruit")
     public Fruit getRandomFruit() throws NoResultException {

@@ -13,8 +13,13 @@ import ro.ovidiuconeac.server.features.food.exceptions.NoResultException;
 @Service
 public class SweetsBeanImpl implements SweetsBean {
 
+    private final SweetsDao dao;
+
+    // Better for testing
     @Autowired
-    private SweetsDao dao;
+    public SweetsBeanImpl(SweetsDao dao) {
+        this.dao = dao;
+    }
 
     @Override
     public Sweet getRandomSweet() throws NoResultException {

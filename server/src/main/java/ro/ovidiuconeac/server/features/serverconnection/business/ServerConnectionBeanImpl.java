@@ -14,9 +14,14 @@ import java.net.UnknownHostException;
 @Service
 public class ServerConnectionBeanImpl implements ServerConnectionBean {
 
+    private final Environment environment;
+
+    // Better for testing
     @Autowired
-    private Environment environment;
-    
+    public ServerConnectionBeanImpl(Environment environment) {
+        this.environment = environment;
+    }
+
     @Override
     public ServerConnection getServerConnection() {
         InetAddress ip = null;

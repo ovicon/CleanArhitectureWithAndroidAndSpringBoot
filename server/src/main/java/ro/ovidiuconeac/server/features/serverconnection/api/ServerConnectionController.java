@@ -13,8 +13,13 @@ import ro.ovidiuconeac.server.features.serverconnection.business.ServerConnectio
 @RestController
 public class ServerConnectionController {
 
+    private final ServerConnectionBean serverConnectionBean;
+
+    // Better for testing
     @Autowired
-    private ServerConnectionBean serverConnectionBean;
+    public ServerConnectionController(ServerConnectionBean serverConnectionBean) {
+        this.serverConnectionBean = serverConnectionBean;
+    }
 
     @RequestMapping("/serverconnection")
     public ServerConnection getIPv4Address() {

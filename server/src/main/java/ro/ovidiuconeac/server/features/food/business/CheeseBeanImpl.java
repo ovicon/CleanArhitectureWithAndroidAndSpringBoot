@@ -13,8 +13,13 @@ import ro.ovidiuconeac.server.features.food.exceptions.NoResultException;
 @Service
 public class CheeseBeanImpl implements CheeseBean {
 
+    private final CheesesDao dao;
+
+    // Better for testing
     @Autowired
-    private CheesesDao dao;
+    public CheeseBeanImpl(CheesesDao dao) {
+        this.dao = dao;
+    }
 
     @Override
     public Cheese getRandomCheese() throws NoResultException {
