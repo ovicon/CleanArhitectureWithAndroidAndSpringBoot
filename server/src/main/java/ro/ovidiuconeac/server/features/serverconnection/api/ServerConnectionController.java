@@ -6,6 +6,7 @@ package ro.ovidiuconeac.server.features.serverconnection.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import ro.ovidiuconeac.models.features.serverconnection.ServerConnection;
 import ro.ovidiuconeac.server.features.serverconnection.business.ServerConnectionBean;
@@ -21,7 +22,7 @@ public class ServerConnectionController {
         this.serverConnectionBean = serverConnectionBean;
     }
 
-    @RequestMapping("/serverconnection")
+    @RequestMapping(method = RequestMethod.GET, path = "/serverconnection")
     public ServerConnection getIPv4Address() {
         return serverConnectionBean.getServerConnection();
     }

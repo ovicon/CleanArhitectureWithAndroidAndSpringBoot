@@ -6,6 +6,7 @@ package ro.ovidiuconeac.server.features.food.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import ro.ovidiuconeac.models.features.food.Cheese;
 import ro.ovidiuconeac.models.features.food.Fruit;
@@ -30,17 +31,17 @@ public class FoodController {
         this.sweetsBean = sweetsBean;
     }
 
-    @RequestMapping("/fruit")
+    @RequestMapping(method = RequestMethod.GET, path = "/fruit")
     public Fruit getRandomFruit() throws NoResultException {
         return fruitsBean.getRandomFruit();
     }
 
-    @RequestMapping("/cheese")
+    @RequestMapping(method = RequestMethod.GET, path = "/cheese")
     public Cheese getRandomCheese() throws NoResultException {
         return cheeseBean.getRandomCheese();
     }
 
-    @RequestMapping("/sweet")
+    @RequestMapping(method = RequestMethod.GET, path = "/sweet")
     public Sweet getRandomSweet() throws NoResultException {
         return sweetsBean.getRandomSweet();
     }
