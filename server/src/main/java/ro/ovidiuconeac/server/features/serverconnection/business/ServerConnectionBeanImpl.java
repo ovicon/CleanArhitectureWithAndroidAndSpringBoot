@@ -2,7 +2,7 @@ package ro.ovidiuconeac.server.features.serverconnection.business;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import ro.ovidiuconeac.models.features.serverconnection.ServerConnection;
 
 import java.net.InetAddress;
@@ -11,7 +11,7 @@ import java.net.UnknownHostException;
 /**
  * Created by Ovidiu CONEAC on 2/15/2017.
  */
-@Component
+@Service
 public class ServerConnectionBeanImpl implements ServerConnectionBean {
 
     @Autowired

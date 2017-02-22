@@ -16,6 +16,7 @@ import ro.ovidiuconeac.server.features.food.business.SweetsBean;
 import ro.ovidiuconeac.server.features.food.exceptions.NoResultException;
 
 @RestController
+@RequestMapping("/food")
 public class FoodController {
 
     @Autowired
@@ -27,17 +28,17 @@ public class FoodController {
     @Autowired
     private SweetsBean sweetsBean;
 
-    @RequestMapping("/food/fruit")
+    @RequestMapping("/fruit")
     public Fruit getRandomFruit() throws NoResultException {
         return fruitsBean.getRandomFruit();
     }
 
-    @RequestMapping("/food/cheese")
+    @RequestMapping("/cheese")
     public Cheese getRandomCheese() throws NoResultException {
         return cheeseBean.getRandomCheese();
     }
 
-    @RequestMapping("/food/sweet")
+    @RequestMapping("/sweet")
     public Sweet getRandomSweet() throws NoResultException {
         return sweetsBean.getRandomSweet();
     }

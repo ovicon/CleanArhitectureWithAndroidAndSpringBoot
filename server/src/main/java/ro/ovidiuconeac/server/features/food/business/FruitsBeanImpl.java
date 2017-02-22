@@ -1,7 +1,7 @@
 package ro.ovidiuconeac.server.features.food.business;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import ro.ovidiuconeac.models.features.food.Fruit;
 import ro.ovidiuconeac.server.features.food.data.dao.FruitsDao;
 import ro.ovidiuconeac.server.features.food.data.exceptions.FruitNotFoundException;
@@ -10,7 +10,7 @@ import ro.ovidiuconeac.server.features.food.exceptions.NoResultException;
 /**
  * Created by ovidiu on 2/7/17.
  */
-@Component
+@Service
 public class FruitsBeanImpl implements FruitsBean {
 
     @Autowired

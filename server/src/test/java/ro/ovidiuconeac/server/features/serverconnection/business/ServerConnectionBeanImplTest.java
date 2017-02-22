@@ -5,8 +5,6 @@ import org.junit.Before;
 import org.junit.Test;
 import ro.ovidiuconeac.models.features.serverconnection.ServerConnection;
 
-import java.net.UnknownHostException;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.mockito.Mockito.mock;
