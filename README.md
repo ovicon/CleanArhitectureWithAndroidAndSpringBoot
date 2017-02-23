@@ -165,9 +165,7 @@ public class FoodUseCases {
 ```
 These use cases, or model, or interactor, or whatever you want to call it, represent application specific business rules. They are specific to the application and not the domain. They orchestrate the flow of data between the presentation layer, represented by the client application, and the API layer, represented by the server application. You can think of them, as what the application does, what the presentation layer does, what does a feature do.
 
-If you want to see more about MVP in Android see: Asynchronous MVP Design for Android, without 3rd Party Libraries and Clean Architecture in Android with MVP Presentation Layer.
-
-
+If you want to see more about MVP in Android see: [Clean architecture in Android with MVP presentation layer].
 
 Next we design the server application as a 4-tier clean architecture. No higher level of design, like MVP, is used here. The design concepts used are features and use cases. Each feature is packaged by layer.
 
