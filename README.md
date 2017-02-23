@@ -172,9 +172,10 @@ Next we design the server application as a 4-tier clean architecture. No higher 
 The server application has two features:
 
 ![Web server application features](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/web_server_application_features.png "Web server application features")
-Both features are implemented by layer, API, business, data:
 
+Both features are implemented by layer, API, business, data:
 ![Web server application features by layer](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/web_server_application_features_by_layer.png "Web server application features by layer")
+
 The serverconnection feature does not implement the data layer because it has no need to communicate with a database.
 
 The unit tests are part of the design. In test driven development they actually help create the design. In our system they just make sure that the design functions correctly.
