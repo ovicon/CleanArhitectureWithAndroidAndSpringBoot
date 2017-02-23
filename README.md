@@ -126,11 +126,9 @@ The design of the client application, the presentation layer in our the context,
 Each feature is an abstraction for a set of common use cases, and each feature is implemented as MVP.
 
 The client application has only one feature, food:
-
 ![5-tier presentation layer features](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/presentation-layer_5_tier.png "5-tier presentation layer features")
 
 These feature implements the following uses cases:
-
 ![5 tier presentation-layer use cases](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/presentation-layer_5_tier_use_cases.png "5 tier presentation-layer use cases")
 ```java
 package ro.ovidiuconeac.client.features.food.presentation.model;
