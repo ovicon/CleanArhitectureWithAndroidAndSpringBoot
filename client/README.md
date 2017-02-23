@@ -1,7 +1,7 @@
 # CleanArhitectureWIthAndroidAndSpringBoot
 Full stack system, based on clean architecture, with Android client and Spring Boot backend. 
 ___
-The client application.
+The client application implemented as a Android application.
 ___
 License
 -------
