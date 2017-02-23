@@ -37,5 +37,28 @@ public interface RestServiceApi {
     Call<Sweet> fetchSweet();
 }
 ```
+The client application executes some GET requests on the web server to get cheeses, fruits and sweets objects. It then processes these objects to properly display the names of cheeses, fruits and sweets on the user interface.
 
-TODO
+Each GET request on the same endpoint, returns a random object of the type specified for that endpoint.
+
+The proposed solution contains the following 5-tier clean architecture, considering both client and server as a whole:  the presentation layer, the API layer, the business layer, the data layer, and the database layer.
+![5 tier clean architecture](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/clean_architecture_layers_5_tier.png "5 tier clean architecture")
+The presentation layer represents the Android client application. This layer is implemented using an MVP (model view presenter) design, also supporting asynchronous operations.
+
+The API layer represents the web server REST endpoints. The API through which the client application and the server application communicate.
+
+The business layer is the domain specific code, and is implemented as plain Java objects.
+
+The data layer is an abstraction layer for the database. Its purpose is to expose implemented database operations.
+
+The database layer represents the actual database. This is a in-memory H2 Java SQL database.
+
+The vertical yellow line represents the boundary between the client and the server, while the vertical green lines represent boundaries between layers that belong to the web server application. These vertical lines represent the separation of concerns, archived by dividing the software into layers.
+
+The arrow shows the code dependency rule, starting from the lowest layer, the presentation layer, going through each layer, until the highest layer, the database layer. Each layer knows about its immediate higher layer, and no layers know about their immediate lower layers. The code dependency rule is a one way street.
+
+The simplified development process
+-------
+First we define the requirements of the solution, and separate them in two groups, functional and non-functional requirements. Functional requirements describe what the system should does, while non-functional requirements describe how the system works.
+___
+
