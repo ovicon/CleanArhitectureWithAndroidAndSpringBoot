@@ -101,7 +101,7 @@ This is a small sample of non-functional requirements.
 ___
 The architecture of the system is very simple. I shall succinctly explain it with the C4 software architectural model. The "C4 model" is a simple hierarchical way to think about the static structures of a software system in terms of containers, components and classes (or code). The details about this software architectural model are not the topic of this discussion.
 
-At the first level, called the context, we have the system and its interactions with other software systems. In our case, the system represented by the client application and the web application, is isolated from any external dependencies and represents one entity.
+At the first level, called the context, we have the system and its interactions with other software systems. In our case, the system, represented by the client application and the web application, is isolated from any external dependencies and represents one entity.
 
 At the second level we have the containers. These are represented by the client application and that server application.
 
