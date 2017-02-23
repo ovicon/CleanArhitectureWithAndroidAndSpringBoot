@@ -109,9 +109,11 @@ At the third level we have the components of each container. These represent the
 
 At the forth level we have the classes. Therese are the implementation.
 ___
-The mock-ups come next and are based on the wireframes and requirements. For the sake of simplicity I am just going to show the actual implementation as mock-ups:
+The mock-ups come next and are based on the wireframes and requirements. For the sake of simplicity I am just going to show the actual implementation as mock-ups.
+
 The client application mock-up:
 ![Client mock-up](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/client_mockup.png "Client mock-up")
+
 The web application mock-up:
 ![Web application mock-up](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/web_app_mockup.png "Web application mock-up")
 ___
