@@ -128,6 +128,7 @@ The client application has only one feature, food:
 ![5-tier presentation layer features](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/presentation-layer_5_tier.png "5-tier presentation layer features")
 
 These feature implements the following uses cases:
+
 ![5 tier presentation-layer use cases](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/presentation-layer_5_tier_use_cases.png "5 tier presentation-layer use cases")
 ```java
 package ro.ovidiuconeac.client.features.food.presentation.model;
@@ -169,8 +170,10 @@ If you want to see more about MVP in Android see: Asynchronous MVP Design for An
 Next we design the server application as a 4-tier clean architecture. No higher level of design, like MVP, is used here. The design concepts used are features and use cases. Each feature is packaged by layer.
 
 The server application has two features:
+
 ![Web server application features](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/web_server_application_features.png "Web server application features")
 Both features are implemented by layer, API, business, data:
+
 ![Web server application features by layer](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/web_server_application_features_by_layer.png "Web server application features by layer")
 The serverconnection feature does not implement the data layer because it has no need to communicate with a database.
 
