@@ -191,6 +191,8 @@ To run the examples you need __Android Studio__ for the client application, and 
 
 The workflow is as follows: start the server application, open a browser window, go to http://localhost:1984 and see the server connection, start the client in an emulator, enter the server connection in the client, run the client uses cases.
 
+You can start both applications from their IDEs, this is simpler. You can also start the server with the following maven command: __mvn spring-boot:run__ from the application module.
+
 For the best results, use a laptop for the server application, and an actual Android device for the client application. Both the laptop and the Android device must be connected to the same Wi-Fi connection. 
 
 Known issues
