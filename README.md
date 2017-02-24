@@ -200,7 +200,7 @@ Known issues
 While working with a laptop and an Android device, to develop and test the system, I had absolutely no issues in client server communication.
 
 However, while working on my desktop PC together with an Android emulator, I did encounter some unexpected behavior. The client application would not connect to the displayed server connection. The issue had something to do with loopbacks.
-
+ 
 To fix this, I test if the local host provided by by the serverconnection feature is a loopback address. If it is, then the server connection is the android emulator loopback together with the port, http://10.0.2.2:1984.
 ```java
 package ro.ovidiuconeac.server.features.serverconnection.business
