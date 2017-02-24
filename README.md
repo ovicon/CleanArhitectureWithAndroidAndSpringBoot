@@ -1,4 +1,4 @@
-# CleanArhitectureWIthAndroidAndSpringBoot
+# CleanArhitectureWithAndroidAndSpringBoot
 Full stack system, based on clean architecture, with Android client and Spring Boot backend. 
 
 The problem
@@ -59,9 +59,9 @@ The arrow shows the code dependency rule, starting from the lowest layer, the pr
 
 The simplified development process
 -------
-First we define the requirements of the solution, and separate them in two groups, functional and non-functional requirements. Functional requirements describe what the system should does, while non-functional requirements describe how the system works.
+First we define the requirements of the solution, and separate them in two groups, __functional__ and __non-functional__ requirements. Functional requirements describe what the system should does, while non-functional requirements describe how the system works.
 ___
-The functional requirements state that a client server solution is required.
+The __functional requirements__ state that a client server solution is required.
 
 The client application gets random fruits, cheeses and sweets from a server application, and displays the name of each fruit, cheese and sweet on the client user interface.
 
@@ -81,7 +81,7 @@ The wireframes for the client application and the web application.
 
 This is a small sample of functional requirements.
 ___
-The non-functional requirements state that the client must be an Android application, while the server must be a Spring Boot application.
+The __non-functional requirements__ state that the client must be an Android application, while the server must be a Spring Boot application.
 
 The system must be decoupled, testable, maintainable.
 
@@ -99,17 +99,17 @@ The database will automatically be populated when the application is started.
 
 This is a small sample of non-functional requirements.
 ___
-The architecture of the system is very simple. I shall succinctly explain it with the C4 software architectural model. The "C4 model" is a simple hierarchical way to think about the static structures of a software system in terms of containers, components and classes (or code). The details about this software architectural model are not the topic of this discussion.
+The __architecture__ of the system is very simple. I shall succinctly explain it with the C4 software architectural model. The "C4 model" is a simple hierarchical way to think about the static structures of a __software system__ in terms of __containers__, __components__ and __classes__ (or __code__). The details about this software architectural model are not the topic of this discussion.
 
-At the first level, called the context, we have the system and its interactions with other software systems. In our case, the system represented by the client application and the web application, is isolated from any external dependencies and represents one entity.
+At the first level, called the __context__, we have the system and its interactions with other software systems. In our case, the system, represented by the client application and the web application, is isolated from any external dependencies and represents one entity.
 
-At the second level we have the containers. These are represented by the client application and that server application.
+At the second level we have the __containers__. These are represented by the client application and that server application.
 
-At the third level we have the components of each container. These represent the design of the code.
+At the third level we have the __components__ of each container. These represent the design of the code.
 
-At the forth level we have the classes. Therese are the implementation.
+At the forth level we have the __classes__. Therese are the implementation.
 ___
-The mock-ups come next and are based on the wireframes and requirements. For the sake of simplicity I am just going to show the actual implementation as mock-ups.
+The __mock-ups__ come next and are based on the wireframes and requirements. For the sake of simplicity I am just going to show the actual implementation as mock-ups.
 
 The client application mock-up:
 ![Client mock-up](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/client_mockup.png "Client mock-up")
@@ -117,7 +117,7 @@ The client application mock-up:
 The web application mock-up:
 ![Web application mock-up](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/web_app_mockup.png "Web application mock-up")
 ___
-Next comes the design of the application. This is the implementation phase, the writing of the code, based on clearly define code structures. We can include here, MVP, package by feature, name and location of packages, design patterns, clean code, common code style, etc.
+Next comes the __design__ of the application. This is the implementation phase, the writing of the code, based on clearly define code structures. We can include here, MVP, package by feature, name and location of packages, design patterns, clean code, common code style, etc.
 
 Remember architecture is what the system does, while design is how the applications does it. Architecture is more abstract, while design is concrete.
 
@@ -126,9 +126,11 @@ The design of the client application, the presentation layer in our the context,
 Each feature is an abstraction for a set of common use cases, and each feature is implemented as MVP.
 
 The client application has only one feature, food:
+
 ![5-tier presentation layer features](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/presentation-layer_5_tier.png "5-tier presentation layer features")
 
 These feature implements the following uses cases:
+
 ![5 tier presentation-layer use cases](http://www.ovidiuconeac.ro/wp-content/uploads/2017/02/presentation-layer_5_tier_use_cases.png "5 tier presentation-layer use cases")
 ```java
 package ro.ovidiuconeac.client.features.food.presentation.model;
@@ -163,11 +165,9 @@ public class FoodUseCases {
 ```
 These use cases, or model, or interactor, or whatever you want to call it, represent application specific business rules. They are specific to the application and not the domain. They orchestrate the flow of data between the presentation layer, represented by the client application, and the API layer, represented by the server application. You can think of them, as what the application does, what the presentation layer does, what does a feature do.
 
-If you want to see more about MVP in Android see: Asynchronous MVP Design for Android, without 3rd Party Libraries and Clean Architecture in Android with MVP Presentation Layer.
+If you want to see more about MVP in Android see: [Clean architecture in Android with MVP presentation layer](https://github.com/ovicon/AndroidCleanArchitectureWithMVP).
 
-
-
-Next we design the server application as a 4-tier clean architecture. No higher level of design, like MVP, is used here. The design concepts used are features and use cases. Each feature is packaged by layer.
+Next we __design__ the server application as a 4-tier clean architecture. No higher level of design, like MVP, is used here. The design concepts used are features and use cases. Each feature is packaged by layer.
 
 The server application has two features:
 
@@ -187,7 +187,7 @@ Next comes the testing part, this means to test the functional requirements of t
 
 Running the examples
 -------
-To run the examples you need Android Studio for the client application, and IntelliJ for the server part.
+To run the examples you need __Android Studio__ for the client application, and __IntelliJ__ for the server part.
 
 The workflow is as follows: start the server application, open a browser window, go to http://localhost:1984 and see the server connection, start the client in an emulator, enter the server connection in the client, run the client uses cases.
 
