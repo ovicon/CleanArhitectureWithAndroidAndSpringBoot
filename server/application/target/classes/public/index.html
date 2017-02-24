@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Server - Home</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="application/javascript">
+    function displayServerConnection() {
+        var url = 'http://localhost:1984/serverconnection';
+        jQuery.ajax({
+            type: 'GET',
+            url: url,
+            dataType: 'json',
+            success: function successCallback(result) {
+                $('#server_connection')
+                    .text('The server connection for your client is: ' + result.scheme + '://' + result.host + ':' + result.port);
+            },
+            error: function errorCallback(xhr, textStatus, errorThrown) {
+                $('#server_connection')
+                    .text('Unable to establish server connection, '  + textStatus + ', please check the configured port: ' + url);
+            }
+        });
+    }
+    </script>
+    <style>
+        body {background-color: powderblue;}
+    </style>
+</head>
+<body onload="displayServerConnection()">
+    <h1 id="server_connection"></h1>
+</body>
+</html>

@@ -1,0 +1,13 @@
+ro/ovidiuconeac/server/features/food/business/CheeseBeanImplTest.class
+ro/ovidiuconeac/server/features/serverconnection/business/ServerConnectionBeanImplTest.class
+ro/ovidiuconeac/server/features/food/api/FoodControllerTest.class
+ro/ovidiuconeac/server/features/food/data/transformers/FruitTransformerTest.class
+ro/ovidiuconeac/server/features/food/business/FruitsBeanImplTest.class
+ro/ovidiuconeac/server/features/food/data/transformers/SweetTransformerTest.class
+ro/ovidiuconeac/server/features/food/business/BeanImplTestSuite.class
+ro/ovidiuconeac/server/features/food/data/dao/SweetsDaoImplTest.class
+ro/ovidiuconeac/server/features/food/data/transformers/CheeseTransformerTest.class
+ro/ovidiuconeac/server/features/serverconnection/api/ServerConnectionControllerTest.class
+ro/ovidiuconeac/server/features/food/business/SweetsBeanImplTest.class
+ro/ovidiuconeac/server/features/food/data/dao/FruitsDaoImplTest.class
+ro/ovidiuconeac/server/features/food/data/dao/CheesesDaoImplTest.class

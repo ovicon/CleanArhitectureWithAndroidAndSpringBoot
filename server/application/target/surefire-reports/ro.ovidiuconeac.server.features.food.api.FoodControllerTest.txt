@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ro.ovidiuconeac.server.features.food.api.FoodControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.078 sec - in ro.ovidiuconeac.server.features.food.api.FoodControllerTest

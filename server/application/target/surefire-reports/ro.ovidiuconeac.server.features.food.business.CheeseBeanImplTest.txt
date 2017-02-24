@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ro.ovidiuconeac.server.features.food.business.CheeseBeanImplTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 sec - in ro.ovidiuconeac.server.features.food.business.CheeseBeanImplTest
