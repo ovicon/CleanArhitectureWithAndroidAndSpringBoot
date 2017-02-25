@@ -4,6 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import ro.ovidiuconeac.models.features.food.Fruit;
+import ro.ovidiuconeac.server.features.food.data.entities.FruitEntity;
 import ro.ovidiuconeac.server.features.food.data.exceptions.FruitNotFoundException;
 
 import static org.junit.Assert.assertEquals;
@@ -30,16 +31,17 @@ public class FruitsDaoImplTest {
 
     @Test
     public void getRandomCheese() {
-        Fruit fruit = new Fruit("Apple");
-        Fruit result = null;
+        FruitEntity fruitEntity = new FruitEntity();
+        fruitEntity.setName("Apple");
+        FruitEntity result = null;
         try {
-            when(fruitsDao.getRandomFruit()).thenReturn(fruit);
+            when(fruitsDao.getRandomFruit()).thenReturn(fruitEntity);
             result = fruitsDao.getRandomFruit();
         } catch (FruitNotFoundException e) {
             assertEquals(true, false);
         }
         assertNotNull(result);
-        assertEquals(fruit.getName(), result.getName());
+        assertEquals(fruitEntity.getName(), result.getName());
     }
 
     @Test

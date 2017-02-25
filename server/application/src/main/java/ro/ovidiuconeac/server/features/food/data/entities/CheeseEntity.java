@@ -18,9 +18,6 @@ public class CheeseEntity {
     @Column(name = "name")
     private String name;
 
-    public CheeseEntity() {
-    }
-
     public Long getId() {
         return id;
     }

@@ -13,9 +13,7 @@
     <bytecodeTargetLevel>
       <module name="application" target="1.8" />
       <module name="models" target="1.8" />
-      <module name="presentation-layer" target="1.8" />
       <module name="server" target="1.8" />
-      <module name="server-maven" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

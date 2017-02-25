@@ -1,6 +1,7 @@
 package ro.ovidiuconeac.server.features.food.data.dao;
 
 import ro.ovidiuconeac.models.features.food.Sweet;
+import ro.ovidiuconeac.server.features.food.data.entities.SweetEntity;
 import ro.ovidiuconeac.server.features.food.data.exceptions.SweetNotFoundException;
 
 /**
@@ -8,5 +9,5 @@ import ro.ovidiuconeac.server.features.food.data.exceptions.SweetNotFoundExcepti
  */
 
 public interface SweetsDao {
-    Sweet getRandomSweet() throws SweetNotFoundException;
+    SweetEntity getRandomSweet() throws SweetNotFoundException;
 }

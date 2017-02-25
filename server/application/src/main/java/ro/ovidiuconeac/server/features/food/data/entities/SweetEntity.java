@@ -18,9 +18,6 @@ public class SweetEntity {
     @Column(name = "name")
     private String name;
 
-    public SweetEntity() {
-    }
-
     public Long getId() {
         return id;
     }

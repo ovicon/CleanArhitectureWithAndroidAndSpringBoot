@@ -4,6 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import ro.ovidiuconeac.models.features.food.Sweet;
+import ro.ovidiuconeac.server.features.food.data.entities.SweetEntity;
 import ro.ovidiuconeac.server.features.food.data.exceptions.SweetNotFoundException;
 
 import static org.junit.Assert.assertEquals;
@@ -30,16 +31,17 @@ public class SweetsDaoImplTest {
 
     @Test
     public void getRandomCheese() {
-        Sweet sweet = new Sweet("Turbo bubble gum");
-        Sweet result = null;
+        SweetEntity sweetEntity = new SweetEntity();
+        sweetEntity.setName("Turbo bubble gum");
+        SweetEntity result = null;
         try {
-            when(sweetsDao.getRandomSweet()).thenReturn(sweet);
+            when(sweetsDao.getRandomSweet()).thenReturn(sweetEntity);
             result = sweetsDao.getRandomSweet();
         } catch (SweetNotFoundException e) {
             assertEquals(true, false);
         }
         assertNotNull(result);
-        assertEquals(sweet.getName(), result.getName());
+        assertEquals(sweetEntity.getName(), result.getName());
     }
 
     @Test

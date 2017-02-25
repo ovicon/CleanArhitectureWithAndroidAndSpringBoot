@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: ro.ovidiuconeac.server.features.food.api.FoodControllerTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.078 sec - in ro.ovidiuconeac.server.features.food.api.FoodControllerTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.015 sec <<< FAILURE! - in ro.ovidiuconeac.server.features.food.api.FoodControllerTest
+getCheese(ro.ovidiuconeac.server.features.food.api.FoodControllerTest)  Time elapsed: 0.223 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at ro.ovidiuconeac.server.features.food.api.FoodControllerTest.getCheese(FoodControllerTest.java:30)
+
+getFruit(ro.ovidiuconeac.server.features.food.api.FoodControllerTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at ro.ovidiuconeac.server.features.food.api.FoodControllerTest.getFruit(FoodControllerTest.java:37)
+
+getSweet(ro.ovidiuconeac.server.features.food.api.FoodControllerTest)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at ro.ovidiuconeac.server.features.food.api.FoodControllerTest.getSweet(FoodControllerTest.java:44)
+

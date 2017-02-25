@@ -21,8 +21,8 @@ public class FruitTransformerTest {
     public void setUp() {
         fruitTransformer = new FruitTransformer();
         entity = new FruitEntity();
-        entity.setId(1L);
         entity.setName("Cherry");
+        entity.setId(1L);
     }
 
     @After
@@ -32,8 +32,8 @@ public class FruitTransformerTest {
 
     @Test
     public void testFruitTransformer() {
-        Fruit Fruit = fruitTransformer.getModelFrom(entity);
-        assertNotNull(Fruit);
-        assertEquals("Cherry", Fruit.getName());
+        Fruit fruit = fruitTransformer.getModelFrom(entity);
+        assertNotNull(fruit);
+        assertEquals("Cherry", fruit.getName());
     }
 }

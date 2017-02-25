@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ro.ovidiuconeac.server.features.food.api.FoodControllerTest" time="0.217" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="ro.ovidiuconeac.server.features.food.api.FoodControllerTest" time="0.253" tests="3" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/ovidiu/Developer/jdk1.8.0_31/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.31-b07"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/server/application"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWithAndroidAndSpringBoot/server"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWIthAndroidAndSpringBoot/server/application"/>
+    <property name="user.dir" value="/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWithAndroidAndSpringBoot/server"/>
     <property name="java.runtime.version" value="1.8.0_31-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/home/ovidiu/Developer/jdk1.8.0_31/jre/lib/endorsed"/>
@@ -58,7 +58,320 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="getCheese" classname="ro.ovidiuconeac.server.features.food.api.FoodControllerTest" time="0.199"/>
-  <testcase name="getFruit" classname="ro.ovidiuconeac.server.features.food.api.FoodControllerTest" time="0.009"/>
-  <testcase name="getSweet" classname="ro.ovidiuconeac.server.features.food.api.FoodControllerTest" time="0.009"/>
+  <testcase name="getCheese" classname="ro.ovidiuconeac.server.features.food.api.FoodControllerTest" time="0.223">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at ro.ovidiuconeac.server.features.food.api.FoodControllerTest.getCheese(FoodControllerTest.java:30)
+]]></failure>
+    <system-out><![CDATA[13:51:09.607 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class ro.ovidiuconeac.server.features.food.api.FoodControllerTest]
+13:51:09.607 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:51:09.608 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:51:09.608 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:51:09.609 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest], using SpringBootContextLoader
+13:51:09.609 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]: class path resource [ro/ovidiuconeac/server/features/food/api/FoodControllerTest-context.xml] does not exist
+13:51:09.609 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]: class path resource [ro/ovidiuconeac/server/features/food/api/FoodControllerTestContext.groovy] does not exist
+13:51:09.610 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:51:09.610 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]: FoodControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:51:09.616 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]
+13:51:09.616 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+13:51:09.616 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+13:51:09.616 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+13:51:09.616 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ro.ovidiuconeac.server.Application for test class ro.ovidiuconeac.server.features.food.api.FoodControllerTest
+13:51:09.617 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]: using defaults.
+13:51:09.619 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:51:09.621 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@544fa968, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@247bddad, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@d35dea7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7770f470, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e5d171f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@24313fcc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7d20d0b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@77f1baf5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41a2befb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6c40365c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7bedc48a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@131ef10]
+13:51:09.621 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]
+13:51:09.621 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]
+13:51:09.621 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]
+13:51:09.621 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]
+13:51:09.629 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@43c1b556 testClass = FoodControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@587e5365 testClass = FoodControllerTest, locations = '{}', classes = '{class ro.ovidiuconeac.server.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@22fcf7ab key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, Package Import ro.ovidiuconeac.server.features.food.api]], org.springframework.boot.test.context.SpringBootTestContextCustomizer@5faeada1, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1563da5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@e7e8512, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@436e852b], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+13:51:09.629 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]
+13:51:09.629 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [ro.ovidiuconeac.server.features.food.api.FoodControllerTest]
+13:51:09.663 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+13:51:09.663 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+13:51:09.663 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+13:51:09.664 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+13:51:09.667 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+13:51:09.667 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.1.RELEASE)
+
+2017-02-25 13:51:09.829  INFO 8435 --- [           main] r.o.s.f.food.api.FoodControllerTest      : Starting FoodControllerTest on localhost.localdomain with PID 8435 (started by ovidiu in /home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWithAndroidAndSpringBoot/server/application)
+2017-02-25 13:51:09.830  INFO 8435 --- [           main] r.o.s.f.food.api.FoodControllerTest      : No active profile set, falling back to default profiles: default
+2017-02-25 13:51:09.842  INFO 8435 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2e570ded: startup date [Sat Feb 25 13:51:09 EET 2017]; root of context hierarchy
+2017-02-25 13:51:10.546  INFO 8435 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-25 13:51:10.593  INFO 8435 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-25 13:51:10.610  INFO 8435 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60c34aa8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-02-25 13:51:10.887  INFO 8435 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWithAndroidAndSpringBoot/server/application/target/classes/schema.sql]
+2017-02-25 13:51:10.902  INFO 8435 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWithAndroidAndSpringBoot/server/application/target/classes/schema.sql] in 15 ms.
+2017-02-25 13:51:10.905  INFO 8435 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWithAndroidAndSpringBoot/server/application/target/classes/data.sql]
+2017-02-25 13:51:10.919  INFO 8435 --- [           main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/home/ovidiu/Developer/workspace/Android/Apps/CleanArhitectureWithAndroidAndSpringBoot/server/application/target/classes/data.sql] in 14 ms.
+2017-02-25 13:51:11.035  INFO 8435 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-02-25 13:51:11.051  INFO 8435 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-02-25 13:51:11.109  INFO 8435 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2017-02-25 13:51:11.110  INFO 8435 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2017-02-25 13:51:11.111  INFO 8435 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2017-02-25 13:51:11.136  INFO 8435 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-02-25 13:51:11.211  INFO 8435 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-02-25 13:51:11.401  WARN 8435 --- [           main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : drop-create.  Supported values include create, create-drop, update, and validate.  Ignoring
+2017-02-25 13:51:11.572  INFO 8435 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-02-25 13:51:11.736  INFO 8435 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2017-02-25 13:51:11.736  INFO 8435 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-02-25 13:51:11.907  INFO 8435 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/food/fruit],methods=[GET]}" onto public ro.ovidiuconeac.models.features.food.Fruit ro.ovidiuconeac.server.features.food.api.FoodController.getRandomFruit() throws ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+2017-02-25 13:51:11.907  INFO 8435 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/food/sweet],methods=[GET]}" onto public ro.ovidiuconeac.models.features.food.Sweet ro.ovidiuconeac.server.features.food.api.FoodController.getRandomSweet() throws ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+2017-02-25 13:51:11.907  INFO 8435 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/food/cheese],methods=[GET]}" onto public ro.ovidiuconeac.models.features.food.Cheese ro.ovidiuconeac.server.features.food.api.FoodController.getRandomCheese() throws ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+2017-02-25 13:51:11.908  INFO 8435 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/serverconnection],methods=[GET]}" onto public ro.ovidiuconeac.models.features.serverconnection.ServerConnection ro.ovidiuconeac.server.features.serverconnection.api.ServerConnectionController.getIPv4Address()
+2017-02-25 13:51:11.910  INFO 8435 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-02-25 13:51:11.910  INFO 8435 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-02-25 13:51:11.933  INFO 8435 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-02-25 13:51:11.933  INFO 8435 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-02-25 13:51:11.945  INFO 8435 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-02-25 13:51:11.950  INFO 8435 --- [           main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: ServletContext resource [/index.html]
+2017-02-25 13:51:12.031  INFO 8435 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2e570ded: startup date [Sat Feb 25 13:51:09 EET 2017]; root of context hierarchy
+2017-02-25 13:51:12.108  INFO 8435 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 372 ms
+2017-02-25 13:51:12.358  INFO 8435 --- [           main] r.o.s.f.food.api.FoodControllerTest      : Started FoodControllerTest in 2.685 seconds (JVM running for 3.253)
+2017-02-25 13:51:12.470  INFO 8435 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /food/cheese
+       Parameters = {}
+          Headers = {Accept=[application/json]}
+
+Handler:
+             Type = ro.ovidiuconeac.server.features.food.api.FoodController
+           Method = public ro.ovidiuconeac.models.features.food.Cheese ro.ovidiuconeac.server.features.food.api.FoodController.getRandomCheese() throws ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = No result found in database
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="getFruit" classname="ro.ovidiuconeac.server.features.food.api.FoodControllerTest" time="0.014">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at ro.ovidiuconeac.server.features.food.api.FoodControllerTest.getFruit(FoodControllerTest.java:37)
+]]></failure>
+    <system-out><![CDATA[
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /food/cheese
+       Parameters = {}
+          Headers = {Accept=[application/json]}
+
+Handler:
+             Type = ro.ovidiuconeac.server.features.food.api.FoodController
+           Method = public ro.ovidiuconeac.models.features.food.Cheese ro.ovidiuconeac.server.features.food.api.FoodController.getRandomCheese() throws ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = No result found in database
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /food/fruit
+       Parameters = {}
+          Headers = {Accept=[application/json]}
+
+Handler:
+             Type = ro.ovidiuconeac.server.features.food.api.FoodController
+           Method = public ro.ovidiuconeac.models.features.food.Fruit ro.ovidiuconeac.server.features.food.api.FoodController.getRandomFruit() throws ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = No result found in database
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="getSweet" classname="ro.ovidiuconeac.server.features.food.api.FoodControllerTest" time="0.016">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:54)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:81)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:664)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at ro.ovidiuconeac.server.features.food.api.FoodControllerTest.getSweet(FoodControllerTest.java:44)
+]]></failure>
+    <system-out><![CDATA[
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /food/cheese
+       Parameters = {}
+          Headers = {Accept=[application/json]}
+
+Handler:
+             Type = ro.ovidiuconeac.server.features.food.api.FoodController
+           Method = public ro.ovidiuconeac.models.features.food.Cheese ro.ovidiuconeac.server.features.food.api.FoodController.getRandomCheese() throws ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = No result found in database
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /food/fruit
+       Parameters = {}
+          Headers = {Accept=[application/json]}
+
+Handler:
+             Type = ro.ovidiuconeac.server.features.food.api.FoodController
+           Method = public ro.ovidiuconeac.models.features.food.Fruit ro.ovidiuconeac.server.features.food.api.FoodController.getRandomFruit() throws ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = No result found in database
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /food/sweet
+       Parameters = {}
+          Headers = {Accept=[application/json]}
+
+Handler:
+             Type = ro.ovidiuconeac.server.features.food.api.FoodController
+           Method = public ro.ovidiuconeac.models.features.food.Sweet ro.ovidiuconeac.server.features.food.api.FoodController.getRandomSweet() throws ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = ro.ovidiuconeac.server.features.food.exceptions.NoResultException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 404
+    Error message = No result found in database
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
 </testsuite>

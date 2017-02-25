@@ -1,6 +1,7 @@
 package ro.ovidiuconeac.server.features.food.data.dao;
 
 import ro.ovidiuconeac.models.features.food.Fruit;
+import ro.ovidiuconeac.server.features.food.data.entities.FruitEntity;
 import ro.ovidiuconeac.server.features.food.data.exceptions.FruitNotFoundException;
 
 /**
@@ -8,5 +9,5 @@ import ro.ovidiuconeac.server.features.food.data.exceptions.FruitNotFoundExcepti
  */
 
 public interface FruitsDao {
-    Fruit getRandomFruit() throws FruitNotFoundException;
+    FruitEntity getRandomFruit() throws FruitNotFoundException;
 }

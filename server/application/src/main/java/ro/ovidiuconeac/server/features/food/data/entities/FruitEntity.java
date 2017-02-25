@@ -18,9 +18,6 @@ public class FruitEntity {
     @Column(name = "name")
     private String name;
 
-    public FruitEntity() {
-    }
-
     public Long getId() {
         return id;
     }

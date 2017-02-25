@@ -17,7 +17,6 @@ import ro.ovidiuconeac.server.features.food.business.SweetsBean;
 import ro.ovidiuconeac.server.features.food.exceptions.NoResultException;
 
 @RestController
-@RequestMapping("/food")
 public class FoodController {
 
     private final FruitsBean fruitsBean;
@@ -31,17 +30,17 @@ public class FoodController {
         this.sweetsBean = sweetsBean;
     }
 
-    @RequestMapping(method = RequestMethod.GET, path = "/fruit")
+    @RequestMapping(method = RequestMethod.GET, path = "/food/fruit")
     public Fruit getRandomFruit() throws NoResultException {
         return fruitsBean.getRandomFruit();
     }
 
-    @RequestMapping(method = RequestMethod.GET, path = "/cheese")
+    @RequestMapping(method = RequestMethod.GET, path = "/food/cheese")
     public Cheese getRandomCheese() throws NoResultException {
         return cheeseBean.getRandomCheese();
     }
 
-    @RequestMapping(method = RequestMethod.GET, path = "/sweet")
+    @RequestMapping(method = RequestMethod.GET, path = "/food/sweet")
     public Sweet getRandomSweet() throws NoResultException {
         return sweetsBean.getRandomSweet();
     }

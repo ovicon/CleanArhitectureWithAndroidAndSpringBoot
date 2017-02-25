@@ -21,8 +21,8 @@ public class CheeseTransformerTest {
     public void setUp() {
         cheeseTransformer = new CheeseTransformer();
         entity = new CheeseEntity();
-        entity.setId(1L);
         entity.setName("Cas");
+        entity.setId(1L);
     }
 
     @After

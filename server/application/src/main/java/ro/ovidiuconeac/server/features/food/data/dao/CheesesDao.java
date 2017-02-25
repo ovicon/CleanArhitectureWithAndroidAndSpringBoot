@@ -1,6 +1,7 @@
 package ro.ovidiuconeac.server.features.food.data.dao;
 
 import ro.ovidiuconeac.models.features.food.Cheese;
+import ro.ovidiuconeac.server.features.food.data.entities.CheeseEntity;
 import ro.ovidiuconeac.server.features.food.data.exceptions.CheeseNotFoundException;
 
 /**
@@ -8,5 +9,5 @@ import ro.ovidiuconeac.server.features.food.data.exceptions.CheeseNotFoundExcept
  */
 
 public interface CheesesDao {
-    Cheese getRandomCheese() throws CheeseNotFoundException;
+    CheeseEntity getRandomCheese() throws CheeseNotFoundException;
 }

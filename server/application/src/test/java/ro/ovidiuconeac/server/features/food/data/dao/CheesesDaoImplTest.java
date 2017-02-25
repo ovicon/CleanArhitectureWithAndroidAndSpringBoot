@@ -4,6 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import ro.ovidiuconeac.models.features.food.Cheese;
+import ro.ovidiuconeac.server.features.food.data.entities.CheeseEntity;
 import ro.ovidiuconeac.server.features.food.data.exceptions.CheeseNotFoundException;
 
 import static org.junit.Assert.assertEquals;
@@ -31,16 +32,17 @@ public class CheesesDaoImplTest {
 
     @Test
     public void getRandomCheese() {
-        Cheese cheese = new Cheese("Cas");
-        Cheese result = null;
+        CheeseEntity cheeseEntity = new CheeseEntity();
+        cheeseEntity.setName("Cas");
+        CheeseEntity result = null;
         try {
-            when(cheesesDao.getRandomCheese()).thenReturn(cheese);
+            when(cheesesDao.getRandomCheese()).thenReturn(cheeseEntity);
             result = cheesesDao.getRandomCheese();
         } catch (CheeseNotFoundException e) {
             assertEquals(true, false);
         }
         assertNotNull(result);
-        assertEquals(cheese.getName(), result.getName());
+        assertEquals(cheeseEntity.getName(), result.getName());
     }
 
     @Test
