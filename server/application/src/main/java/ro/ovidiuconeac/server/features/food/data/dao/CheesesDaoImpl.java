@@ -1,5 +1,6 @@
 package ro.ovidiuconeac.server.features.food.data.dao;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import ro.ovidiuconeac.server.features.food.data.entities.CheeseEntity;
 import ro.ovidiuconeac.server.features.food.data.exceptions.CheeseNotFoundException;
